@@ -1,4 +1,4 @@
-const data = [
+const dataAr = [
     {
         "transliteration": "keef aS-SiHHa?",
         "_id": "45",

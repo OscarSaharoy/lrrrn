@@ -2460,5 +2460,3083 @@ const dataBg = [
         "bulgarian": "сив",
         "recording": "mp3s/bulgarian/a18x241007243630.mp3",
         "id": 499
+    },
+    {
+        "english": "Bulgaria",
+        "bulgarian": "България",
+        "recording": "mp3s/bulgarian/7/o/7o_9168016_17_300678_1060041.mp3",
+        "id": 500
+    },
+    {
+        "english": "water",
+        "bulgarian": "вода",
+        "recording": "mp3s/bulgarian/7/3/73_9761946_17_350315.mp3",
+        "id": 501
+    },
+    {
+        "english": "hello",
+        "bulgarian": "здравейте",
+        "recording": "mp3s/bulgarian/g/6/g6_9109135_17_987424.mp3",
+        "id": 502
+    },
+    {
+        "english": "thank you",
+        "bulgarian": "благодаря",
+        "recording": "mp3s/bulgarian/n/9/n9_9761946_17_355726.mp3",
+        "id": 503
+    },
+    {
+        "english": "i love you",
+        "bulgarian": "Обичам те",
+        "recording": "mp3s/bulgarian/j/d/jd_9381586_17_393167.mp3",
+        "id": 504
+    },
+    {
+        "english": "hello",
+        "bulgarian": "привет",
+        "recording": "mp3s/bulgarian/v/x/vx_9761946_17_293289.mp3",
+        "id": 505
+    },
+    {
+        "english": "dick",
+        "bulgarian": "хуй",
+        "recording": "mp3s/bulgarian/f/w/fw_9100234_17_2976_921282.mp3",
+        "id": 506
+    },
+    {
+        "english": "Thank you!",
+        "bulgarian": "Благодаря!",
+        "recording": "mp3s/bulgarian/8/g/8g_9109135_17_529017.mp3",
+        "id": 507
+    },
+    {
+        "english": "yes",
+        "bulgarian": "да",
+        "recording": "mp3s/bulgarian/8/7/87_9761946_17_331990.mp3",
+        "id": 508
+    },
+    {
+        "english": "a book",
+        "bulgarian": "книга",
+        "recording": "mp3s/bulgarian/u/k/uk_10084240_17_295661.mp3",
+        "id": 509
+    },
+    {
+        "english": "another",
+        "bulgarian": "друг",
+        "recording": "mp3s/bulgarian/h/h/hh_9109524_17_293574_934782.mp3",
+        "id": 510
+    },
+    {
+        "english": "a lot",
+        "bulgarian": "много",
+        "recording": "mp3s/bulgarian/h/g/hg_9061162_17_332666_333459.mp3",
+        "id": 511
+    },
+    {
+        "english": "Sofia",
+        "bulgarian": "София",
+        "recording": "mp3s/bulgarian/x/j/xj_9761946_17_18265.mp3",
+        "id": 512
+    },
+    {
+        "english": "please",
+        "bulgarian": "моля",
+        "recording": "mp3s/bulgarian/0/q/0q_9109135_17_1812027.mp3",
+        "id": 513
+    },
+    {
+        "english": "bicycle",
+        "bulgarian": "велосипед",
+        "recording": "mp3s/bulgarian/i/1/i1_9761946_17_367773.mp3",
+        "id": 514
+    },
+    {
+        "english": "goodbye",
+        "bulgarian": "довиждане",
+        "recording": "mp3s/bulgarian/m/x/mx_9109135_17_1299141.mp3",
+        "id": 515
+    },
+    {
+        "english": "good morning",
+        "bulgarian": "добро утро",
+        "recording": "mp3s/bulgarian/u/g/ug_9177959_17_69085.mp3",
+        "id": 516
+    },
+    {
+        "english": "good evening",
+        "bulgarian": "добър вечер",
+        "recording": "mp3s/bulgarian/l/w/lw_9109135_17_511027.mp3",
+        "id": 517
+    },
+    {
+        "english": "Good day",
+        "bulgarian": "Добър ден",
+        "recording": "mp3s/bulgarian/8994993/17/8994993_17_7146441.mp3",
+        "id": 518
+    },
+    {
+        "english": "i",
+        "bulgarian": "аз",
+        "recording": "mp3s/bulgarian/8/t/8t_9588660_17_390652.mp3",
+        "id": 519
+    },
+    {
+        "english": "Hello!",
+        "bulgarian": "Здравей!",
+        "recording": "mp3s/bulgarian/o/4/o4_9109135_17_529141.mp3",
+        "id": 520
+    },
+    {
+        "english": "good night",
+        "bulgarian": "лека нощ",
+        "recording": "mp3s/bulgarian/b/4/b4_9100234_17_1324194_1.mp3",
+        "id": 521
+    },
+    {
+        "english": "head",
+        "bulgarian": "глава",
+        "recording": "mp3s/bulgarian/h/i/hi_10084240_17_331947.mp3",
+        "id": 522
+    },
+    {
+        "english": "no",
+        "bulgarian": "не",
+        "recording": "mp3s/bulgarian/k/1/k1_9061162_17_332889_374432.mp3",
+        "id": 523
+    },
+    {
+        "english": "bus",
+        "bulgarian": "автобус",
+        "recording": "mp3s/bulgarian/9/8/98_9772167_17_287926.mp3",
+        "id": 524
+    },
+    {
+        "english": "May",
+        "bulgarian": "май",
+        "recording": "mp3s/bulgarian/a/k/ak_9026068_17_18276.mp3",
+        "id": 525
+    },
+    {
+        "english": "mother",
+        "bulgarian": "майка",
+        "recording": "mp3s/bulgarian/2/r/2r_9026068_17_308195.mp3",
+        "id": 526
+    },
+    {
+        "english": "1999",
+        "bulgarian": "1999",
+        "recording": "mp3s/bulgarian/y/b/yb_9761946_17_879387.mp3",
+        "id": 527
+    },
+    {
+        "english": "tea",
+        "bulgarian": "чай",
+        "recording": "mp3s/bulgarian/6/u/6u_9772167_17_499787.mp3",
+        "id": 528
+    },
+    {
+        "english": "I'm sorry",
+        "bulgarian": "съжалявам",
+        "recording": "mp3s/bulgarian/a/4/a4_9109135_17_870404.mp3",
+        "id": 529
+    },
+    {
+        "english": "is",
+        "bulgarian": "е",
+        "recording": "mp3s/bulgarian/x/0/x0_9419269_17_1104406.mp3",
+        "id": 530
+    },
+    {
+        "english": "Tuesday",
+        "bulgarian": "вторник",
+        "recording": "mp3s/bulgarian/l/a/la_9026068_17_295102.mp3",
+        "id": 531
+    },
+    {
+        "english": "A car",
+        "bulgarian": "Кола",
+        "recording": "mp3s/bulgarian/l/1/l1_9772167_17_69109.mp3",
+        "id": 532
+    },
+    {
+        "english": "lamp",
+        "bulgarian": "лампа",
+        "recording": "mp3s/bulgarian/m/t/mt_9026068_17_320011.mp3",
+        "id": 533
+    },
+    {
+        "english": "love",
+        "bulgarian": "любов",
+        "recording": "mp3s/bulgarian/k/x/kx_10084240_17_308190.mp3",
+        "id": 534
+    },
+    {
+        "english": "you",
+        "bulgarian": "ти",
+        "recording": "mp3s/bulgarian/5/s/5s_10084240_17_333918.mp3",
+        "id": 535
+    },
+    {
+        "english": "uh",
+        "bulgarian": "ъ",
+        "recording": "mp3s/bulgarian/0/z/0z_9419269_17_1337062.mp3",
+        "id": 536
+    },
+    {
+        "english": "a house",
+        "bulgarian": "къща",
+        "recording": "mp3s/bulgarian/s/z/sz_8984025_17_395460_1.mp3",
+        "id": 537
+    },
+    {
+        "english": "an angel",
+        "bulgarian": "ангел",
+        "recording": "mp3s/bulgarian/4/k/4k_8978362_17_331066_1.mp3",
+        "id": 538
+    },
+    {
+        "english": "sister",
+        "bulgarian": "сестра",
+        "recording": "mp3s/bulgarian/m/t/mt_10084240_17_295693.mp3",
+        "id": 539
+    },
+    {
+        "english": "Bulgarian",
+        "bulgarian": "български",
+        "recording": "mp3s/bulgarian/9109135/17/9109135_17_5517035.mp3",
+        "id": 540
+    },
+    {
+        "english": "on",
+        "bulgarian": "на",
+        "recording": "mp3s/bulgarian/2/j/2j_9109135_17_332695_710602.mp3",
+        "id": 541
+    },
+    {
+        "english": "an elephant",
+        "bulgarian": "слон",
+        "recording": "mp3s/bulgarian/s/p/sp_10084240_17_361885.mp3",
+        "id": 542
+    },
+    {
+        "english": "August",
+        "bulgarian": "август",
+        "recording": "mp3s/bulgarian/v/v/vv_9043177_17_295997_1160534.mp3",
+        "id": 543
+    },
+    {
+        "english": "work",
+        "bulgarian": "работа",
+        "recording": "mp3s/bulgarian/b/g/bg_9820042_17_340880.mp3",
+        "id": 544
+    },
+    {
+        "english": "sea",
+        "bulgarian": "море",
+        "recording": "mp3s/bulgarian/3/d/3d_9772167_17_69080.mp3",
+        "id": 545
+    },
+    {
+        "english": "three",
+        "bulgarian": "три",
+        "recording": "mp3s/bulgarian/w/0/w0_9005181_17_295715_52572.mp3",
+        "id": 546
+    },
+    {
+        "english": "wine",
+        "bulgarian": "вино",
+        "recording": "mp3s/bulgarian/6/f/6f_9419269_17_320061.mp3",
+        "id": 547
+    },
+    {
+        "english": "ear",
+        "bulgarian": "ухо",
+        "recording": "mp3s/bulgarian/2/g/2g_9772167_17_334054.mp3",
+        "id": 548
+    },
+    {
+        "english": "coffee",
+        "bulgarian": "кафе",
+        "recording": "mp3s/bulgarian/b/n/bn_9419269_17_352871.mp3",
+        "id": 549
+    },
+    {
+        "english": "her",
+        "bulgarian": "я",
+        "recording": "mp3s/bulgarian/h/b/hb_9419269_17_338225.mp3",
+        "id": 550
+    },
+    {
+        "english": "a woman",
+        "bulgarian": "жена",
+        "recording": "mp3s/bulgarian/5/g/5g_9772167_17_3143.mp3",
+        "id": 551
+    },
+    {
+        "english": "affairs",
+        "bulgarian": "дела",
+        "recording": "mp3s/bulgarian/o/j/oj_9109524_17_339313_527330.mp3",
+        "id": 552
+    },
+    {
+        "english": "France",
+        "bulgarian": "Франция",
+        "recording": "mp3s/bulgarian/j/r/jr_9100234_17_423066_936515.mp3",
+        "id": 553
+    },
+    {
+        "english": "good",
+        "bulgarian": "добре",
+        "recording": "mp3s/bulgarian/q/x/qx_9026068_17_582696.mp3",
+        "id": 554
+    },
+    {
+        "english": "lawyer",
+        "bulgarian": "адвокат",
+        "recording": "mp3s/bulgarian/a/q/aq_9026068_17_361973.mp3",
+        "id": 555
+    },
+    {
+        "english": "street",
+        "bulgarian": "улица",
+        "recording": "mp3s/bulgarian/l/k/lk_9772167_17_295700.mp3",
+        "id": 556
+    },
+    {
+        "english": "a river",
+        "bulgarian": "река",
+        "recording": "mp3s/bulgarian/v/x/vx_9223533_17_69078_1655034.mp3",
+        "id": 557
+    },
+    {
+        "english": "Plovdiv",
+        "bulgarian": "Пловдив",
+        "recording": "mp3s/bulgarian/g/y/gy_8994993_17_295085_51209.mp3",
+        "id": 558
+    },
+    {
+        "english": "yesterday",
+        "bulgarian": "вчера",
+        "recording": "mp3s/bulgarian/g/3/g3_9026068_17_342167.mp3",
+        "id": 559
+    },
+    {
+        "english": "chocolate",
+        "bulgarian": "шоколад",
+        "recording": "mp3s/bulgarian/d/2/d2_9041056_17_511019.mp3",
+        "id": 560
+    },
+    {
+        "english": "Sunday",
+        "bulgarian": "неделя",
+        "recording": "mp3s/bulgarian/j/q/jq_9026068_17_295107.mp3",
+        "id": 561
+    },
+    {
+        "english": "winter",
+        "bulgarian": "зима",
+        "recording": "mp3s/bulgarian/e/y/ey_9772167_17_332226.mp3",
+        "id": 562
+    },
+    {
+        "english": "excuse me",
+        "bulgarian": "извинете",
+        "recording": "mp3s/bulgarian/5/w/5w_9761946_17_1368222.mp3",
+        "id": 563
+    },
+    {
+        "english": "star",
+        "bulgarian": "звезда",
+        "recording": "mp3s/bulgarian/s/6/s6_9031750_17_320036_76139.mp3",
+        "id": 564
+    },
+    {
+        "english": "Moscow",
+        "bulgarian": "Москва",
+        "recording": "mp3s/bulgarian/7/r/7r_8994993_17_200_237681.mp3",
+        "id": 565
+    },
+    {
+        "english": "whore",
+        "bulgarian": "курва",
+        "recording": "mp3s/bulgarian/g/p/gp_8994993_17_319965_79437.mp3",
+        "id": 566
+    },
+    {
+        "english": "Great Britain",
+        "bulgarian": "Великобритания",
+        "recording": "mp3s/bulgarian/i/6/i6_8994993_17_427785_169083.mp3",
+        "id": 567
+    },
+    {
+        "english": "mouth",
+        "bulgarian": "уста",
+        "recording": "mp3s/bulgarian/y/9/y9_10084240_17_371869.mp3",
+        "id": 568
+    },
+    {
+        "english": "Germany",
+        "bulgarian": "Германия",
+        "recording": "mp3s/bulgarian/u/5/u5_9100234_17_531460_715137.mp3",
+        "id": 569
+    },
+    {
+        "english": "exercise",
+        "bulgarian": "упражнение",
+        "recording": "mp3s/bulgarian/2/5/25_9210951_17_586309_331172.mp3",
+        "id": 570
+    },
+    {
+        "english": "It's nice to me",
+        "bulgarian": "Приятно ми е",
+        "recording": "mp3s/bulgarian/m/o/mo_9419269_17_7147699.mp3",
+        "id": 571
+    },
+    {
+        "english": "mi",
+        "bulgarian": "ми",
+        "recording": "mp3s/bulgarian/7/i/7i_9109524_17_332645_710608.mp3",
+        "id": 572
+    },
+    {
+        "english": "China",
+        "bulgarian": "Китай",
+        "recording": "mp3s/bulgarian/k/h/kh_9100234_17_591690_575389.mp3",
+        "id": 573
+    },
+    {
+        "english": "word",
+        "bulgarian": "слово",
+        "recording": "mp3s/bulgarian/4/1/41_9026068_17_330177.mp3",
+        "id": 574
+    },
+    {
+        "english": "Anastasia",
+        "bulgarian": "Анастасия",
+        "recording": "mp3s/bulgarian/i/f/if_9041056_17_331063_107543.mp3",
+        "id": 575
+    },
+    {
+        "english": "moon",
+        "bulgarian": "луна",
+        "recording": "mp3s/bulgarian/z/n/zn_10084240_17_343091.mp3",
+        "id": 576
+    },
+    {
+        "english": "freedom",
+        "bulgarian": "свобода",
+        "recording": "mp3s/bulgarian/5/o/5o_9109135_17_319958.mp3",
+        "id": 577
+    },
+    {
+        "english": "1997",
+        "bulgarian": "1997",
+        "recording": "mp3s/bulgarian/o/h/oh_9419269_17_1461848.mp3",
+        "id": 578
+    },
+    {
+        "english": "pike",
+        "bulgarian": "щука",
+        "recording": "mp3s/bulgarian/u/8/u8_8994993_17_358573_628910.mp3",
+        "id": 579
+    },
+    {
+        "english": "Martin",
+        "bulgarian": "Мартин",
+        "recording": "mp3s/bulgarian/b/k/bk_9078936_17_343169_511910.mp3",
+        "id": 580
+    },
+    {
+        "english": "March",
+        "bulgarian": "март",
+        "recording": "mp3s/bulgarian/e/s/es_8976823_17_18278_1.mp3",
+        "id": 581
+    },
+    {
+        "english": "and",
+        "bulgarian": "и",
+        "recording": "mp3s/bulgarian/l/5/l5_9061162_17_332253_622854.mp3",
+        "id": 582
+    },
+    {
+        "english": "a chair",
+        "bulgarian": "стол",
+        "recording": "mp3s/bulgarian/q/n/qn_10084240_17_328164.mp3",
+        "id": 583
+    },
+    {
+        "english": "from",
+        "bulgarian": "от",
+        "recording": "mp3s/bulgarian/t/z/tz_9026068_17_338412.mp3",
+        "id": 584
+    },
+    {
+        "english": "textbook",
+        "bulgarian": "учебник",
+        "recording": "mp3s/bulgarian/p/r/pr_9772167_17_295701.mp3",
+        "id": 585
+    },
+    {
+        "english": "Lev",
+        "bulgarian": "лев",
+        "recording": "mp3s/bulgarian/w/x/wx_9834216_17_331020.mp3",
+        "id": 586
+    },
+    {
+        "english": "Japan",
+        "bulgarian": "Япония",
+        "recording": "mp3s/bulgarian/0/7/07_9607081_17_586102.mp3",
+        "id": 587
+    },
+    {
+        "english": "sex",
+        "bulgarian": "секс",
+        "recording": "mp3s/bulgarian/4/h/4h_9090312_17_498609_1371879.mp3",
+        "id": 588
+    },
+    {
+        "english": "America",
+        "bulgarian": "Америка",
+        "recording": "mp3s/bulgarian/q/q/qq_9109135_17_507167.mp3",
+        "id": 589
+    },
+    {
+        "english": "father",
+        "bulgarian": "баща",
+        "recording": "mp3s/bulgarian/n/8/n8_10279980_17_308196.mp3",
+        "id": 590
+    },
+    {
+        "english": "fool",
+        "bulgarian": "глупак",
+        "recording": "mp3s/bulgarian/v/m/vm_9209099_17_1298692_1.mp3",
+        "id": 591
+    },
+    {
+        "english": "can i sit down",
+        "bulgarian": "Мога ли да седна?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7151879.mp3",
+        "id": 592
+    },
+    {
+        "english": "angle",
+        "bulgarian": "ъгъл",
+        "recording": "mp3s/bulgarian/z/r/zr_9053652_17_870324_1.mp3",
+        "id": 593
+    },
+    {
+        "english": "Stefan Stambolov",
+        "bulgarian": "Стефан Стамболов",
+        "recording": "mp3s/bulgarian/6/2/62_8978362_17_320167_1.mp3",
+        "id": 594
+    },
+    {
+        "english": "faggy wretches",
+        "bulgarian": "педерасти нещастни",
+        "recording": "mp3s/bulgarian/7/2/72_9100234_17_1341949_1.mp3",
+        "id": 595
+    },
+    {
+        "english": "Thank you very much",
+        "bulgarian": "Благодаря много",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7142187.mp3",
+        "id": 596
+    },
+    {
+        "english": "Fr",
+        "bulgarian": "о",
+        "recording": "mp3s/bulgarian/f/c/fc_9419269_17_332985.mp3",
+        "id": 597
+    },
+    {
+        "english": "way",
+        "bulgarian": "начин",
+        "recording": "mp3s/bulgarian/m/s/ms_9026068_17_1391310.mp3",
+        "id": 598
+    },
+    {
+        "english": "Summer vacation",
+        "bulgarian": "Летница",
+        "recording": "mp3s/bulgarian/n/9/n9_9427737_17_3352492.mp3",
+        "id": 599
+    },
+    {
+        "english": "read and letter",
+        "bulgarian": "четмо и писмо",
+        "recording": "mp3s/bulgarian/1/n/1n_10279980_17_9294918.mp3",
+        "id": 600
+    },
+    {
+        "english": "thirty",
+        "bulgarian": "тридесет",
+        "recording": "mp3s/bulgarian/n/1/n1_9005181_17_525766_1.mp3",
+        "id": 601
+    },
+    {
+        "english": "fire",
+        "bulgarian": "огън",
+        "recording": "mp3s/bulgarian/m/y/my_9026068_17_1104975.mp3",
+        "id": 602
+    },
+    {
+        "english": "What networks does the card work with?",
+        "bulgarian": "С какви мрежи работи картата?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147750.mp3",
+        "id": 603
+    },
+    {
+        "english": "prohibition",
+        "bulgarian": "забрана",
+        "recording": "mp3s/bulgarian/y/d/yd_9026068_17_1300662.mp3",
+        "id": 604
+    },
+    {
+        "english": "sustainable",
+        "bulgarian": "устойчив",
+        "recording": "mp3s/bulgarian/2/m/2m_9026068_17_2288106.mp3",
+        "id": 605
+    },
+    {
+        "english": "fifty",
+        "bulgarian": "петдесет",
+        "recording": "mp3s/bulgarian/1/q/1q_9005181_17_525770_1.mp3",
+        "id": 606
+    },
+    {
+        "english": "theater",
+        "bulgarian": "театър",
+        "recording": "mp3s/bulgarian/n/x/nx_9026068_17_1319924.mp3",
+        "id": 607
+    },
+    {
+        "english": "Musalla",
+        "bulgarian": "Мусала",
+        "recording": "mp3s/bulgarian/n/i/ni_9209547_17_320160_75585.mp3",
+        "id": 608
+    },
+    {
+        "english": "black",
+        "bulgarian": "черно",
+        "recording": "mp3s/bulgarian/s/9/s9_9026068_17_344473.mp3",
+        "id": 609
+    },
+    {
+        "english": "red",
+        "bulgarian": "червено",
+        "recording": "mp3s/bulgarian/3/6/36_10084240_17_3303502.mp3",
+        "id": 610
+    },
+    {
+        "english": "It seems so",
+        "bulgarian": "Така изглежда",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147788.mp3",
+        "id": 611
+    },
+    {
+        "english": "the next one",
+        "bulgarian": "следващия",
+        "recording": "mp3s/bulgarian/a/0/a0_9419269_17_3576409.mp3",
+        "id": 612
+    },
+    {
+        "english": "Leo",
+        "bulgarian": "Лъв",
+        "recording": "mp3s/bulgarian/s/g/sg_8994993_17_511053_1.mp3",
+        "id": 613
+    },
+    {
+        "english": "serving",
+        "bulgarian": "обслужващ",
+        "recording": "mp3s/bulgarian/8/f/8f_9026068_17_2285488.mp3",
+        "id": 614
+    },
+    {
+        "english": "bleach",
+        "bulgarian": "белина",
+        "recording": "mp3s/bulgarian/f/a/fa_9065324_17_331763_1.mp3",
+        "id": 615
+    },
+    {
+        "english": "a finger",
+        "bulgarian": "пръст",
+        "recording": "mp3s/bulgarian/w/t/wt_10084240_17_875003.mp3",
+        "id": 616
+    },
+    {
+        "english": "student",
+        "bulgarian": "ученик",
+        "recording": "mp3s/bulgarian/l/6/l6_9026068_17_511832.mp3",
+        "id": 617
+    },
+    {
+        "english": "Samardala",
+        "bulgarian": "самардала",
+        "recording": "mp3s/bulgarian/e/e/ee_9142354_17_1936617.mp3",
+        "id": 618
+    },
+    {
+        "english": "a pencil",
+        "bulgarian": "молив",
+        "recording": "mp3s/bulgarian/p/k/pk_9772167_17_983529.mp3",
+        "id": 619
+    },
+    {
+        "english": "a beer hall",
+        "bulgarian": "бирария",
+        "recording": "mp3s/bulgarian/0/6/06_10279980_17_9010394.mp3",
+        "id": 620
+    },
+    {
+        "english": "What do you prefer?",
+        "bulgarian": "Какво предпочиташ?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147807.mp3",
+        "id": 621
+    },
+    {
+        "english": "I am very lucky to have met you",
+        "bulgarian": "Голям късмет е, че ви срещнах",
+        "recording": "mp3s/bulgarian/9755318/17/9755318_17_7142746.mp3",
+        "id": 622
+    },
+    {
+        "english": "bride",
+        "bulgarian": "булка",
+        "recording": "mp3s/bulgarian/k/j/kj_9109135_17_817776_538179.mp3",
+        "id": 623
+    },
+    {
+        "english": "angular",
+        "bulgarian": "ъглов",
+        "recording": "mp3s/bulgarian/1/9/19_9419269_17_9409719.mp3",
+        "id": 624
+    },
+    {
+        "english": "Do you allow?",
+        "bulgarian": "Позволявате ли?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7142188.mp3",
+        "id": 625
+    },
+    {
+        "english": "where are you from",
+        "bulgarian": "От къде сте?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147698.mp3",
+        "id": 626
+    },
+    {
+        "english": "heart",
+        "bulgarian": "сърце",
+        "recording": "mp3s/bulgarian/2/g/2g_9053375_17_870442_1.mp3",
+        "id": 627
+    },
+    {
+        "english": "kidney",
+        "bulgarian": "бъбрек",
+        "recording": "mp3s/bulgarian/x/v/xv_9109135_17_1293668_1.mp3",
+        "id": 628
+    },
+    {
+        "english": "dusk",
+        "bulgarian": "сумрак",
+        "recording": "mp3s/bulgarian/k/2/k2_9026068_17_343934.mp3",
+        "id": 629
+    },
+    {
+        "english": "clear as day",
+        "bulgarian": "ясно като бял ден",
+        "recording": "mp3s/bulgarian/6/9/69_9109135_17_2317608.mp3",
+        "id": 630
+    },
+    {
+        "english": "purple",
+        "bulgarian": "лилаво",
+        "recording": "mp3s/bulgarian/6/s/6s_9026068_17_2392290.mp3",
+        "id": 631
+    },
+    {
+        "english": "a hundred",
+        "bulgarian": "сто",
+        "recording": "mp3s/bulgarian/m/c/mc_10084240_17_333837.mp3",
+        "id": 632
+    },
+    {
+        "english": "Where will we meet?",
+        "bulgarian": "Къде ще се срещнем?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147809.mp3",
+        "id": 633
+    },
+    {
+        "english": "Your work looks interesting",
+        "bulgarian": "Работата ви изглежда интересна",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147693.mp3",
+        "id": 634
+    },
+    {
+        "english": "Can I have a drink?",
+        "bulgarian": "Може ли да почерпя едно питие?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147684.mp3",
+        "id": 635
+    },
+    {
+        "english": "chin",
+        "bulgarian": "брадичка",
+        "recording": "mp3s/bulgarian/z/2/z2_10279980_17_3438411.mp3",
+        "id": 636
+    },
+    {
+        "english": "a letter",
+        "bulgarian": "писмо",
+        "recording": "mp3s/bulgarian/y/7/y7_9026068_17_333181.mp3",
+        "id": 637
+    },
+    {
+        "english": "ear drum",
+        "bulgarian": "тъпанче",
+        "recording": "mp3s/bulgarian/h/d/hd_9761946_17_5459180.mp3",
+        "id": 638
+    },
+    {
+        "english": "Bulgarian woman",
+        "bulgarian": "българка",
+        "recording": "mp3s/bulgarian/q/2/q2_9419269_17_320149.mp3",
+        "id": 639
+    },
+    {
+        "english": "Call me",
+        "bulgarian": "Обади ми се",
+        "recording": "mp3s/bulgarian/9631821/17/9631821_17_7102106.mp3",
+        "id": 640
+    },
+    {
+        "english": "a letter in a bottle",
+        "bulgarian": "писмо в бутилка",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7102733.mp3",
+        "id": 641
+    },
+    {
+        "english": "My father had a birthday",
+        "bulgarian": "Баща ми имаше рожден ден",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7101944.mp3",
+        "id": 642
+    },
+    {
+        "english": "liver",
+        "bulgarian": "черен дроб",
+        "recording": "mp3s/bulgarian/i/4/i4_9834216_17_1293512.mp3",
+        "id": 643
+    },
+    {
+        "english": "Let me have a treat this time",
+        "bulgarian": "Нека аз да почерпя този път",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147682.mp3",
+        "id": 644
+    },
+    {
+        "english": "Will I see you again?",
+        "bulgarian": "Ще те видя ли отново?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147680.mp3",
+        "id": 645
+    },
+    {
+        "english": "bread",
+        "bulgarian": "хляб",
+        "recording": "mp3s/bulgarian/2/j/2j_9026068_17_308205.mp3",
+        "id": 646
+    },
+    {
+        "english": "Kiril Domuschiev",
+        "bulgarian": "Кирил Домусчиев",
+        "recording": "mp3s/bulgarian/7/2/72_9621647_17_4678236.mp3",
+        "id": 647
+    },
+    {
+        "english": "bridges",
+        "bulgarian": "мостове",
+        "recording": "mp3s/bulgarian/3/r/3r_9265277_17_2120806_1.mp3",
+        "id": 648
+    },
+    {
+        "english": "dictionary",
+        "bulgarian": "речник",
+        "recording": "mp3s/bulgarian/p/g/pg_9834216_17_331678.mp3",
+        "id": 649
+    },
+    {
+        "english": "back",
+        "bulgarian": "гръб",
+        "recording": "mp3s/bulgarian/9/5/95_9209099_17_1298487_1.mp3",
+        "id": 650
+    },
+    {
+        "english": "Cyril and Methodius",
+        "bulgarian": "Кирил и Методий",
+        "recording": "mp3s/bulgarian/3/e/3e_8978362_17_320164_1.mp3",
+        "id": 651
+    },
+    {
+        "english": "Kovachevtsi",
+        "bulgarian": "Ковачевци",
+        "recording": "mp3s/bulgarian/5/c/5c_9253293_17_8755157.mp3",
+        "id": 652
+    },
+    {
+        "english": "I would like a salad",
+        "bulgarian": "Бих искал една салата",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7151868.mp3",
+        "id": 653
+    },
+    {
+        "english": "esophagus",
+        "bulgarian": "хранопровод",
+        "recording": "mp3s/bulgarian/e/3/e3_9419269_17_3358384.mp3",
+        "id": 654
+    },
+    {
+        "english": "how",
+        "bulgarian": "как",
+        "recording": "mp3s/bulgarian/0/g/0g_9109135_17_338383.mp3",
+        "id": 655
+    },
+    {
+        "english": "two",
+        "bulgarian": "две",
+        "recording": "mp3s/bulgarian/f/q/fq_10084240_17_339528.mp3",
+        "id": 656
+    },
+    {
+        "english": "six",
+        "bulgarian": "шест",
+        "recording": "mp3s/bulgarian/o/y/oy_10084240_17_355926.mp3",
+        "id": 657
+    },
+    {
+        "english": "sun",
+        "bulgarian": "слънце",
+        "recording": "mp3s/bulgarian/6/p/6p_9031750_17_680305_1.mp3",
+        "id": 658
+    },
+    {
+        "english": "nose",
+        "bulgarian": "нос",
+        "recording": "mp3s/bulgarian/6/i/6i_10084240_17_342313.mp3",
+        "id": 659
+    },
+    {
+        "english": "a friend",
+        "bulgarian": "приятел",
+        "recording": "mp3s/bulgarian/n/c/nc_10279980_17_876592.mp3",
+        "id": 660
+    },
+    {
+        "english": "home",
+        "bulgarian": "дом",
+        "recording": "mp3s/bulgarian/7/r/7r_9109135_17_549600.mp3",
+        "id": 661
+    },
+    {
+        "english": "person",
+        "bulgarian": "лице",
+        "recording": "mp3s/bulgarian/y/f/yf_10084240_17_332552.mp3",
+        "id": 662
+    },
+    {
+        "english": "tram",
+        "bulgarian": "трамвай",
+        "recording": "mp3s/bulgarian/i/l/il_9026068_17_334544.mp3",
+        "id": 663
+    },
+    {
+        "english": "what",
+        "bulgarian": "какво",
+        "recording": "mp3s/bulgarian/o/u/ou_10084240_17_295767.mp3",
+        "id": 664
+    },
+    {
+        "english": "exactly",
+        "bulgarian": "точно",
+        "recording": "mp3s/bulgarian/5/u/5u_9026068_17_341614.mp3",
+        "id": 665
+    },
+    {
+        "english": "a dog",
+        "bulgarian": "куче",
+        "recording": "mp3s/bulgarian/9/k/9k_9100234_17_390281_985241.mp3",
+        "id": 666
+    },
+    {
+        "english": "forest",
+        "bulgarian": "гора",
+        "recording": "mp3s/bulgarian/1/n/1n_9772167_17_363042.mp3",
+        "id": 667
+    },
+    {
+        "english": "science",
+        "bulgarian": "наука",
+        "recording": "mp3s/bulgarian/e/1/e1_9100234_17_332886_710594.mp3",
+        "id": 668
+    },
+    {
+        "english": "pharmacy",
+        "bulgarian": "аптека",
+        "recording": "mp3s/bulgarian/o/q/oq_9109524_17_356210_448966.mp3",
+        "id": 669
+    },
+    {
+        "english": "warehouse",
+        "bulgarian": "склад",
+        "recording": "mp3s/bulgarian/3/q/3q_9026068_17_348832.mp3",
+        "id": 670
+    },
+    {
+        "english": "penis",
+        "bulgarian": "пенис",
+        "recording": "mp3s/bulgarian/t/g/tg_10102581_17_809104.mp3",
+        "id": 671
+    },
+    {
+        "english": "bread",
+        "bulgarian": "хляб",
+        "recording": "mp3s/bulgarian/2/j/2j_9026068_17_308205.mp3",
+        "id": 672
+    },
+    {
+        "english": "here",
+        "bulgarian": "тук",
+        "recording": "mp3s/bulgarian/f/5/f5_9772167_17_1123873.mp3",
+        "id": 673
+    },
+    {
+        "english": "you are",
+        "bulgarian": "си",
+        "recording": "mp3s/bulgarian/u/b/ub_9109135_17_775849_1.mp3",
+        "id": 674
+    },
+    {
+        "english": "grandmother",
+        "bulgarian": "баба",
+        "recording": "mp3s/bulgarian/f/j/fj_9109135_17_636955_985250.mp3",
+        "id": 675
+    },
+    {
+        "english": "cup",
+        "bulgarian": "чаша",
+        "recording": "mp3s/bulgarian/a/x/ax_9772167_17_355662.mp3",
+        "id": 676
+    },
+    {
+        "english": "eye",
+        "bulgarian": "око",
+        "recording": "mp3s/bulgarian/g/1/g1_10084240_17_333057.mp3",
+        "id": 677
+    },
+    {
+        "english": "mine",
+        "bulgarian": "мое",
+        "recording": "mp3s/bulgarian/z/t/zt_9419269_17_342339.mp3",
+        "id": 678
+    },
+    {
+        "english": "father",
+        "bulgarian": "баща",
+        "recording": "mp3s/bulgarian/n/8/n8_10279980_17_308196.mp3",
+        "id": 679
+    },
+    {
+        "english": "hand",
+        "bulgarian": "ръка",
+        "recording": "mp3s/bulgarian/f/j/fj_10084240_17_874996.mp3",
+        "id": 680
+    },
+    {
+        "english": "without",
+        "bulgarian": "без",
+        "recording": "mp3s/bulgarian/q/j/qj_9026068_17_331754.mp3",
+        "id": 681
+    },
+    {
+        "english": "Petya",
+        "bulgarian": "Петя",
+        "recording": "mp3s/bulgarian/m/6/m6_9191472_17_1398143_1.mp3",
+        "id": 682
+    },
+    {
+        "english": "Hello!",
+        "bulgarian": "Здрасти!",
+        "recording": "mp3s/bulgarian/6/k/6k_9109135_17_529142.mp3",
+        "id": 683
+    },
+    {
+        "english": "four",
+        "bulgarian": "четири",
+        "recording": "mp3s/bulgarian/5/u/5u_10084240_17_525739.mp3",
+        "id": 684
+    },
+    {
+        "english": "her",
+        "bulgarian": "й",
+        "recording": "mp3s/bulgarian/2/g/2g_9026068_17_1187064.mp3",
+        "id": 685
+    },
+    {
+        "english": "Please?",
+        "bulgarian": "Моля?",
+        "recording": "mp3s/bulgarian/y/p/yp_9109135_17_529148.mp3",
+        "id": 686
+    },
+    {
+        "english": "c",
+        "bulgarian": "в",
+        "recording": "mp3s/bulgarian/m/n/mn_9109135_17_338229_596390.mp3",
+        "id": 687
+    },
+    {
+        "english": "city",
+        "bulgarian": "град",
+        "recording": "mp3s/bulgarian/q/k/qk_9772167_17_331972.mp3",
+        "id": 688
+    },
+    {
+        "english": "Happy New Year",
+        "bulgarian": "Честита Нова Година",
+        "recording": "mp3s/bulgarian/k/u/ku_9100234_17_1157074_797846.mp3",
+        "id": 689
+    },
+    {
+        "english": "shield",
+        "bulgarian": "щит",
+        "recording": "mp3s/bulgarian/f/e/fe_8978362_17_569907_1.mp3",
+        "id": 690
+    },
+    {
+        "english": "he",
+        "bulgarian": "той",
+        "recording": "mp3s/bulgarian/7/n/7n_10084240_17_345300.mp3",
+        "id": 691
+    },
+    {
+        "english": "Ekaterina",
+        "bulgarian": "Екатерина",
+        "recording": "mp3s/bulgarian/y/r/yr_9026068_17_510940.mp3",
+        "id": 692
+    },
+    {
+        "english": "I don't speak Bulgarian",
+        "bulgarian": "Не говоря български",
+        "recording": "mp3s/bulgarian/c/4/c4_10279980_17_377561.mp3",
+        "id": 693
+    },
+    {
+        "english": "tree",
+        "bulgarian": "дърво",
+        "recording": "mp3s/bulgarian/y/x/yx_10084240_17_552280.mp3",
+        "id": 694
+    },
+    {
+        "english": "hello",
+        "bulgarian": "здравей",
+        "recording": "mp3s/bulgarian/y/j/yj_9005181_17_511024_238351.mp3",
+        "id": 695
+    },
+    {
+        "english": "Italy",
+        "bulgarian": "Италия",
+        "recording": "mp3s/bulgarian/u/c/uc_9834216_17_504641.mp3",
+        "id": 696
+    },
+    {
+        "english": "kitchen",
+        "bulgarian": "кухня",
+        "recording": "mp3s/bulgarian/7/i/7i_9026068_17_361687.mp3",
+        "id": 697
+    },
+    {
+        "english": "how are you",
+        "bulgarian": "Как сте?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7142189.mp3",
+        "id": 698
+    },
+    {
+        "english": "god",
+        "bulgarian": "бог",
+        "recording": "mp3s/bulgarian/c/8/c8_9053652_17_355118_585369.mp3",
+        "id": 699
+    },
+    {
+        "english": "gesture",
+        "bulgarian": "жест",
+        "recording": "mp3s/bulgarian/3/v/3v_9253293_17_338903.mp3",
+        "id": 700
+    },
+    {
+        "english": "shop",
+        "bulgarian": "магазин",
+        "recording": "mp3s/bulgarian/o/d/od_9026068_17_332580.mp3",
+        "id": 701
+    },
+    {
+        "english": "plane",
+        "bulgarian": "самолет",
+        "recording": "mp3s/bulgarian/g/i/gi_9026068_17_897026.mp3",
+        "id": 702
+    },
+    {
+        "english": "x",
+        "bulgarian": "х",
+        "recording": "mp3s/bulgarian/3/9/39_9026068_17_1341469.mp3",
+        "id": 703
+    },
+    {
+        "english": "banana",
+        "bulgarian": "банан",
+        "recording": "mp3s/bulgarian/x/3/x3_10084240_17_287938.mp3",
+        "id": 704
+    },
+    {
+        "english": "will",
+        "bulgarian": "ще",
+        "recording": "mp3s/bulgarian/1/f/1f_9109135_17_993855.mp3",
+        "id": 705
+    },
+    {
+        "english": "do not be unconstitutional",
+        "bulgarian": "непротивоконституционствувателствувайте",
+        "recording": "mp3s/bulgarian/8/v/8v_9209099_17_1685816_1466737.mp3",
+        "id": 706
+    },
+    {
+        "english": "or",
+        "bulgarian": "или",
+        "recording": "mp3s/bulgarian/v/0/v0_10279980_17_338297.mp3",
+        "id": 707
+    },
+    {
+        "english": "Grigor Dimitrov",
+        "bulgarian": "Григор Димитров",
+        "recording": "mp3s/bulgarian/e/n/en_9100234_17_1438854_1.mp3",
+        "id": 708
+    },
+    {
+        "english": "cheers",
+        "bulgarian": "наздраве",
+        "recording": "mp3s/bulgarian/v/z/vz_9026068_17_2284103.mp3",
+        "id": 709
+    },
+    {
+        "english": "coke",
+        "bulgarian": "кока-кола",
+        "recording": "mp3s/bulgarian/8/5/85_9026068_17_1603946.mp3",
+        "id": 710
+    },
+    {
+        "english": "pronunciation",
+        "bulgarian": "произношение",
+        "recording": "mp3s/bulgarian/2/9/29_9109135_17_354083.mp3",
+        "id": 711
+    },
+    {
+        "english": "a boat",
+        "bulgarian": "лодка",
+        "recording": "mp3s/bulgarian/w/z/wz_9026068_17_781232.mp3",
+        "id": 712
+    },
+    {
+        "english": "c",
+        "bulgarian": "ц",
+        "recording": "mp3s/bulgarian/c/8/c8_9419269_17_1725061.mp3",
+        "id": 713
+    },
+    {
+        "english": "a bird",
+        "bulgarian": "птица",
+        "recording": "mp3s/bulgarian/q/t/qt_10084240_17_333476.mp3",
+        "id": 714
+    },
+    {
+        "english": "ice",
+        "bulgarian": "лед",
+        "recording": "mp3s/bulgarian/v/x/vx_10084240_17_342903.mp3",
+        "id": 715
+    },
+    {
+        "english": "them",
+        "bulgarian": "те",
+        "recording": "mp3s/bulgarian/r/6/r6_8978362_17_338625_1.mp3",
+        "id": 716
+    },
+    {
+        "english": "a person",
+        "bulgarian": "човек",
+        "recording": "mp3s/bulgarian/q/v/qv_9026068_17_334156.mp3",
+        "id": 717
+    },
+    {
+        "english": "bitch",
+        "bulgarian": "кучка",
+        "recording": "mp3s/bulgarian/s/k/sk_8994993_17_348874_431779.mp3",
+        "id": 718
+    },
+    {
+        "english": "u",
+        "bulgarian": "у",
+        "recording": "mp3s/bulgarian/j/c/jc_9026068_17_333973.mp3",
+        "id": 719
+    },
+    {
+        "english": "a",
+        "bulgarian": "а",
+        "recording": "mp3s/bulgarian/g/e/ge_10211547_17_331699.mp3",
+        "id": 720
+    },
+    {
+        "english": "George",
+        "bulgarian": "Георги",
+        "recording": "mp3s/bulgarian/2/w/2w_8994993_17_331367_1.mp3",
+        "id": 721
+    },
+    {
+        "english": "after",
+        "bulgarian": "после",
+        "recording": "mp3s/bulgarian/t/a/ta_9026068_17_295758.mp3",
+        "id": 722
+    },
+    {
+        "english": "Kristalina Ivanova Georgieva-Kinova",
+        "bulgarian": "Кристалина Иванова Георгиева-Кинова",
+        "recording": "mp3s/bulgarian/7/n/7n_9656103_17_6313141.mp3",
+        "id": 723
+    },
+    {
+        "english": "life",
+        "bulgarian": "живот",
+        "recording": "mp3s/bulgarian/f/u/fu_9109135_17_332129_378797.mp3",
+        "id": 724
+    },
+    {
+        "english": "school",
+        "bulgarian": "училище",
+        "recording": "mp3s/bulgarian/m/b/mb_10084240_17_552371.mp3",
+        "id": 725
+    },
+    {
+        "english": "a bear",
+        "bulgarian": "мечка",
+        "recording": "mp3s/bulgarian/0/t/0t_9026068_17_371486.mp3",
+        "id": 726
+    },
+    {
+        "english": "pie",
+        "bulgarian": "баница",
+        "recording": "mp3s/bulgarian/j/e/je_8978362_17_320174_1.mp3",
+        "id": 727
+    },
+    {
+        "english": "a hundred",
+        "bulgarian": "сто",
+        "recording": "mp3s/bulgarian/m/c/mc_10084240_17_333837.mp3",
+        "id": 728
+    },
+    {
+        "english": "subway",
+        "bulgarian": "метро",
+        "recording": "mp3s/bulgarian/f/b/fb_9026068_17_500012.mp3",
+        "id": 729
+    },
+    {
+        "english": "where",
+        "bulgarian": "где",
+        "recording": "mp3s/bulgarian/9/b/9b_9026068_17_338523.mp3",
+        "id": 730
+    },
+    {
+        "english": "entrance",
+        "bulgarian": "вход",
+        "recording": "mp3s/bulgarian/e/b/eb_9065324_17_340411_576964.mp3",
+        "id": 731
+    },
+    {
+        "english": "Andrei",
+        "bulgarian": "Андрей",
+        "recording": "mp3s/bulgarian/e/d/ed_9005181_17_331068_107548.mp3",
+        "id": 732
+    },
+    {
+        "english": "ambulance",
+        "bulgarian": "линейка",
+        "recording": "mp3s/bulgarian/7/h/7h_9100234_17_754884_468832.mp3",
+        "id": 733
+    },
+    {
+        "english": "beautiful",
+        "bulgarian": "красив",
+        "recording": "mp3s/bulgarian/v/a/va_9026068_17_1104389.mp3",
+        "id": 734
+    },
+    {
+        "english": "A cat",
+        "bulgarian": "Котка",
+        "recording": "mp3s/bulgarian/q/e/qe_10084240_17_1156238.mp3",
+        "id": 735
+    },
+    {
+        "english": "with pleasure",
+        "bulgarian": "с удоволствие",
+        "recording": "mp3s/bulgarian/q/6/q6_9109135_17_576224.mp3",
+        "id": 736
+    },
+    {
+        "english": "a foreigner",
+        "bulgarian": "иностранец",
+        "recording": "mp3s/bulgarian/0/r/0r_9109135_17_901899_638748.mp3",
+        "id": 737
+    },
+    {
+        "english": "back",
+        "bulgarian": "назад",
+        "recording": "mp3s/bulgarian/k/2/k2_9026068_17_313314.mp3",
+        "id": 738
+    },
+    {
+        "english": "a man",
+        "bulgarian": "мъж",
+        "recording": "mp3s/bulgarian/k/2/k2_9772167_17_1081260.mp3",
+        "id": 739
+    },
+    {
+        "english": "onion",
+        "bulgarian": "лук",
+        "recording": "mp3s/bulgarian/t/3/t3_9026068_17_332561.mp3",
+        "id": 740
+    },
+    {
+        "english": "an egg",
+        "bulgarian": "яйце",
+        "recording": "mp3s/bulgarian/s/j/sj_9026068_17_900733.mp3",
+        "id": 741
+    },
+    {
+        "english": "honey",
+        "bulgarian": "мед",
+        "recording": "mp3s/bulgarian/1/b/1b_10279980_17_790150.mp3",
+        "id": 742
+    },
+    {
+        "english": "an idiot",
+        "bulgarian": "идиот",
+        "recording": "mp3s/bulgarian/2/o/2o_9026068_17_353191.mp3",
+        "id": 743
+    },
+    {
+        "english": "g",
+        "bulgarian": "ж",
+        "recording": "mp3s/bulgarian/m/s/ms_9419269_17_352469.mp3",
+        "id": 744
+    },
+    {
+        "english": "it",
+        "bulgarian": "то",
+        "recording": "mp3s/bulgarian/a/e/ae_8984025_17_338332_1.mp3",
+        "id": 745
+    },
+    {
+        "english": "how are you",
+        "bulgarian": "Как си?",
+        "recording": "mp3s/bulgarian/6/p/6p_9109135_17_520818.mp3",
+        "id": 746
+    },
+    {
+        "english": "juice",
+        "bulgarian": "сок",
+        "recording": "mp3s/bulgarian/t/w/tw_9772167_17_356478.mp3",
+        "id": 747
+    },
+    {
+        "english": "a knife",
+        "bulgarian": "нож",
+        "recording": "mp3s/bulgarian/7/i/7i_9772167_17_295670.mp3",
+        "id": 748
+    },
+    {
+        "english": "Beloved",
+        "bulgarian": "Любим",
+        "recording": "mp3s/bulgarian/9/d/9d_9026068_17_905074.mp3",
+        "id": 749
+    },
+    {
+        "english": "with",
+        "bulgarian": "с",
+        "recording": "mp3s/bulgarian/g/6/g6_9026068_17_338277.mp3",
+        "id": 750
+    },
+    {
+        "english": "Greece",
+        "bulgarian": "гърция",
+        "recording": "mp3s/bulgarian/e/j/ej_9026068_17_504642.mp3",
+        "id": 751
+    },
+    {
+        "english": "for",
+        "bulgarian": "за",
+        "recording": "mp3s/bulgarian/b/2/b2_9109135_17_332146_699870.mp3",
+        "id": 752
+    },
+    {
+        "english": "I'll see you",
+        "bulgarian": "Ще се видим",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7142190.mp3",
+        "id": 753
+    },
+    {
+        "english": "Where will we meet?",
+        "bulgarian": "Къде ще се срещнем?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147809.mp3",
+        "id": 754
+    },
+    {
+        "english": "motor",
+        "bulgarian": "мотор",
+        "recording": "mp3s/bulgarian/r/s/rs_9026068_17_345983.mp3",
+        "id": 755
+    },
+    {
+        "english": "ours",
+        "bulgarian": "наше",
+        "recording": "mp3s/bulgarian/7/h/7h_8984025_17_338740_1.mp3",
+        "id": 756
+    },
+    {
+        "english": "grandfather",
+        "bulgarian": "дядо",
+        "recording": "mp3s/bulgarian/8/w/8w_8993130_17_896935_1.mp3",
+        "id": 757
+    },
+    {
+        "english": "mountain",
+        "bulgarian": "планина",
+        "recording": "mp3s/bulgarian/3/z/3z_9772167_17_69081.mp3",
+        "id": 758
+    },
+    {
+        "english": "good",
+        "bulgarian": "добро",
+        "recording": "mp3s/bulgarian/o/g/og_9026068_17_332033.mp3",
+        "id": 759
+    },
+    {
+        "english": "television",
+        "bulgarian": "телевизор",
+        "recording": "mp3s/bulgarian/k/b/kb_9772167_17_320010.mp3",
+        "id": 760
+    },
+    {
+        "english": "Thank you very much",
+        "bulgarian": "Благодаря много",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7142187.mp3",
+        "id": 761
+    },
+    {
+        "english": "machine",
+        "bulgarian": "машина",
+        "recording": "mp3s/bulgarian/q/f/qf_9109135_17_295667_948414.mp3",
+        "id": 762
+    },
+    {
+        "english": "fish",
+        "bulgarian": "риба",
+        "recording": "mp3s/bulgarian/u/d/ud_9772167_17_69094.mp3",
+        "id": 763
+    },
+    {
+        "english": "day",
+        "bulgarian": "ден",
+        "recording": "mp3s/bulgarian/z/n/zn_10084240_17_677503.mp3",
+        "id": 764
+    },
+    {
+        "english": "him",
+        "bulgarian": "него",
+        "recording": "mp3s/bulgarian/9/b/9b_9419269_17_332894.mp3",
+        "id": 765
+    },
+    {
+        "english": "fees",
+        "bulgarian": "такси",
+        "recording": "mp3s/bulgarian/c/8/c8_9761946_17_369867.mp3",
+        "id": 766
+    },
+    {
+        "english": "milk",
+        "bulgarian": "мляко",
+        "recording": "mp3s/bulgarian/i/j/ij_9772167_17_508305.mp3",
+        "id": 767
+    },
+    {
+        "english": "Son",
+        "bulgarian": "Син",
+        "recording": "mp3s/bulgarian/c/t/ct_9772167_17_582533.mp3",
+        "id": 768
+    },
+    {
+        "english": "Catherine",
+        "bulgarian": "Катерина",
+        "recording": "mp3s/bulgarian/v/5/v5_9419269_17_607545.mp3",
+        "id": 769
+    },
+    {
+        "english": "What is your name?",
+        "bulgarian": "Как се казвате?",
+        "recording": "mp3s/bulgarian/9253293/17/9253293_17_7147701.mp3",
+        "id": 770
+    },
+    {
+        "english": "leg",
+        "bulgarian": "нога",
+        "recording": "mp3s/bulgarian/h/q/hq_9100234_17_69076_740466.mp3",
+        "id": 771
+    },
+    {
+        "english": "fuck you",
+        "bulgarian": "майната ти",
+        "recording": "mp3s/bulgarian/z/g/zg_9026068_17_3773880.mp3",
+        "id": 772
+    },
+    {
+        "english": "Denmark",
+        "bulgarian": "Дания",
+        "recording": "mp3s/bulgarian/0/o/0o_9109135_17_680939.mp3",
+        "id": 773
+    },
+    {
+        "english": "l",
+        "bulgarian": "л",
+        "recording": "mp3s/bulgarian/9/h/9h_10279980_17_356307.mp3",
+        "id": 774
+    },
+    {
+        "english": "Canada",
+        "bulgarian": "Канада",
+        "recording": "mp3s/bulgarian/w/u/wu_9053652_17_557236.mp3",
+        "id": 775
+    },
+    {
+        "english": "hope",
+        "bulgarian": "надежда",
+        "recording": "mp3s/bulgarian/n/0/n0_9209099_17_329600_732681.mp3",
+        "id": 776
+    },
+    {
+        "english": "sir",
+        "bulgarian": "господин",
+        "recording": "mp3s/bulgarian/l/a/la_10084240_17_331382.mp3",
+        "id": 777
+    },
+    {
+        "english": "stadium",
+        "bulgarian": "стадион",
+        "recording": "mp3s/bulgarian/e/y/ey_9026068_17_586232.mp3",
+        "id": 778
+    },
+    {
+        "english": "bee",
+        "bulgarian": "пчела",
+        "recording": "mp3s/bulgarian/r/e/re_10301161_17_816773.mp3",
+        "id": 779
+    },
+    {
+        "english": "frog",
+        "bulgarian": "жаба",
+        "recording": "mp3s/bulgarian/1/m/1m_9031750_17_402700_217808.mp3",
+        "id": 780
+    },
+    {
+        "english": "everything",
+        "bulgarian": "се",
+        "recording": "mp3s/bulgarian/w/0/w0_9026068_17_333672.mp3",
+        "id": 781
+    },
+    {
+        "english": "beauty",
+        "bulgarian": "красота",
+        "recording": "mp3s/bulgarian/5/a/5a_9189121_17_349710_537308.mp3",
+        "id": 782
+    },
+    {
+        "english": "beer",
+        "bulgarian": "пиво",
+        "recording": "mp3s/bulgarian/8/p/8p_9636823_17_352999.mp3",
+        "id": 783
+    },
+    {
+        "english": "Diana",
+        "bulgarian": "Диана",
+        "recording": "mp3s/bulgarian/a/t/at_9078936_17_331469_238001.mp3",
+        "id": 784
+    },
+    {
+        "english": "airport",
+        "bulgarian": "летище",
+        "recording": "mp3s/bulgarian/b/g/bg_8993130_17_897027_1.mp3",
+        "id": 785
+    },
+    {
+        "english": "How do you say this in Bulgarian?",
+        "bulgarian": "Как ще кажеш това на български?",
+        "recording": "mp3s/bulgarian/x/1/x1_9041056_17_529010_266635.mp3",
+        "id": 786
+    },
+    {
+        "english": "case",
+        "bulgarian": "дело",
+        "recording": "mp3s/bulgarian/2/z/2z_9026068_17_332011.mp3",
+        "id": 787
+    },
+    {
+        "english": "Veliko Tarnovo",
+        "bulgarian": "Велико Търново",
+        "recording": "mp3s/bulgarian/u/3/u3_9834216_17_2065253.mp3",
+        "id": 788
+    },
+    {
+        "english": "angle",
+        "bulgarian": "ъгъл",
+        "recording": "mp3s/bulgarian/z/r/zr_9053652_17_870324_1.mp3",
+        "id": 789
+    },
+    {
+        "english": "mine",
+        "bulgarian": "моя",
+        "recording": "mp3s/bulgarian/1/s/1s_8984025_17_340363_1.mp3",
+        "id": 790
+    },
+    {
+        "english": "Nessebar",
+        "bulgarian": "Несебър",
+        "recording": "mp3s/bulgarian/o/y/oy_9161290_17_3352503.mp3",
+        "id": 791
+    },
+    {
+        "english": "chicken",
+        "bulgarian": "пиле",
+        "recording": "mp3s/bulgarian/l/2/l2_9026068_17_1102341.mp3",
+        "id": 792
+    },
+    {
+        "english": "Sweden",
+        "bulgarian": "Швеция",
+        "recording": "mp3s/bulgarian/n/f/nf_9209099_17_626887_1143888.mp3",
+        "id": 793
+    },
+    {
+        "english": "do",
+        "bulgarian": "ли",
+        "recording": "mp3s/bulgarian/g/g/gg_9082381_17_332545_785152.mp3",
+        "id": 794
+    },
+    {
+        "english": "cabinet",
+        "bulgarian": "шкаф",
+        "recording": "mp3s/bulgarian/6/4/64_9772167_17_320067.mp3",
+        "id": 795
+    },
+    {
+        "english": "hair",
+        "bulgarian": "коса",
+        "recording": "mp3s/bulgarian/a/v/av_9772167_17_874997.mp3",
+        "id": 796
+    },
+    {
+        "english": "a conversation",
+        "bulgarian": "разговор",
+        "recording": "mp3s/bulgarian/t/7/t7_9109135_17_333508_321927.mp3",
+        "id": 797
+    },
+    {
+        "english": "the color",
+        "bulgarian": "цвета",
+        "recording": "mp3s/bulgarian/y/1/y1_9473149_17_342502.mp3",
+        "id": 798
+    },
+    {
+        "english": "village",
+        "bulgarian": "село",
+        "recording": "mp3s/bulgarian/f/n/fn_9772167_17_333681.mp3",
+        "id": 799
+    },
+    {
+        "english": "vs",
+        "bulgarian": "против",
+        "recording": "mp3s/bulgarian/f/d/fd_9026068_17_333460.mp3",
+        "id": 800
+    },
+    {
+        "english": "contract",
+        "bulgarian": "договор",
+        "recording": "mp3s/bulgarian/m/z/mz_9026068_17_365820.mp3",
+        "id": 801
+    },
+    {
+        "english": "nature",
+        "bulgarian": "природа",
+        "recording": "mp3s/bulgarian/u/t/ut_9026068_17_500013.mp3",
+        "id": 802
+    },
+    {
+        "english": "oil",
+        "bulgarian": "масло",
+        "recording": "mp3s/bulgarian/o/9/o9_9834216_17_365164.mp3",
+        "id": 803
+    },
+    {
+        "english": "skin",
+        "bulgarian": "кожа",
+        "recording": "mp3s/bulgarian/9/8/98_9109135_17_343700_510334.mp3",
+        "id": 804
+    },
+    {
+        "english": "a storm",
+        "bulgarian": "буря",
+        "recording": "mp3s/bulgarian/5/8/58_9026068_17_364306.mp3",
+        "id": 805
+    },
+    {
+        "english": "attitude",
+        "bulgarian": "отношение",
+        "recording": "mp3s/bulgarian/z/3/z3_8993130_17_342944_512452.mp3",
+        "id": 806
+    },
+    {
+        "english": "Hristo Stoichkov",
+        "bulgarian": "Христо Стоичков",
+        "recording": "mp3s/bulgarian/s/t/st_9610995_17_2973891.mp3",
+        "id": 807
+    },
+    {
+        "english": "mat",
+        "bulgarian": "мат",
+        "recording": "mp3s/bulgarian/7/s/7s_9026068_17_319985.mp3",
+        "id": 808
+    },
+    {
+        "english": "a tooth",
+        "bulgarian": "зъб",
+        "recording": "mp3s/bulgarian/0/8/08_10084240_17_1293422.mp3",
+        "id": 809
+    },
+    {
+        "english": "table",
+        "bulgarian": "маса",
+        "recording": "mp3s/bulgarian/z/c/zc_9772167_17_332605.mp3",
+        "id": 810
+    },
+    {
+        "english": "five",
+        "bulgarian": "пет",
+        "recording": "mp3s/bulgarian/6/i/6i_10084240_17_525740.mp3",
+        "id": 811
+    },
+    {
+        "english": "language",
+        "bulgarian": "език",
+        "recording": "mp3s/bulgarian/k/4/k4_9772167_17_1105179.mp3",
+        "id": 812
+    },
+    {
+        "english": "Merry Christmas",
+        "bulgarian": "Весела Коледа",
+        "recording": "mp3s/bulgarian/1/s/1s_9082381_17_1157075_1.mp3",
+        "id": 813
+    },
+    {
+        "english": "i eat",
+        "bulgarian": "ям",
+        "recording": "mp3s/bulgarian/v/e/ve_9026068_17_1095033.mp3",
+        "id": 814
+    },
+    {
+        "english": "peace",
+        "bulgarian": "мир",
+        "recording": "mp3s/bulgarian/p/p/pp_9109524_17_339659_829424.mp3",
+        "id": 815
+    },
+    {
+        "english": "to",
+        "bulgarian": "до",
+        "recording": "mp3s/bulgarian/m/r/mr_9026068_17_332029.mp3",
+        "id": 816
+    },
+    {
+        "english": "a horse",
+        "bulgarian": "кон",
+        "recording": "mp3s/bulgarian/5/g/5g_9082381_17_840004_557627.mp3",
+        "id": 817
+    },
+    {
+        "english": "dormitory",
+        "bulgarian": "общежитие",
+        "recording": "mp3s/bulgarian/o/i/oi_9419269_17_294098.mp3",
+        "id": 818
+    },
+    {
+        "english": "Elena",
+        "bulgarian": "Елена",
+        "recording": "mp3s/bulgarian/r/q/rq_9005181_17_510532_236899.mp3",
+        "id": 819
+    },
+    {
+        "english": "two",
+        "bulgarian": "два",
+        "recording": "mp3s/bulgarian/b/t/bt_9005181_17_295714_52573.mp3",
+        "id": 820
+    },
+    {
+        "english": "key",
+        "bulgarian": "ключ",
+        "recording": "mp3s/bulgarian/g/v/gv_10084240_17_346758.mp3",
+        "id": 821
+    },
+    {
+        "english": "telephone",
+        "bulgarian": "телефон",
+        "recording": "mp3s/bulgarian/u/n/un_9100234_17_304956_975511.mp3",
+        "id": 822
+    },
+    {
+        "english": "environment",
+        "bulgarian": "среда",
+        "recording": "mp3s/bulgarian/y/m/ym_9265277_17_333800_724264.mp3",
+        "id": 823
+    },
+    {
+        "english": "country",
+        "bulgarian": "страна",
+        "recording": "mp3s/bulgarian/e/k/ek_9026068_17_330661.mp3",
+        "id": 824
+    },
+    {
+        "english": "hotel",
+        "bulgarian": "хотел",
+        "recording": "mp3s/bulgarian/y/0/y0_9419269_17_338776.mp3",
+        "id": 825
+    },
+    {
+        "english": "You are so cute",
+        "bulgarian": "Толкова сте сладък",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147691.mp3",
+        "id": 826
+    },
+    {
+        "english": "a journalist",
+        "bulgarian": "журналист",
+        "recording": "mp3s/bulgarian/r/v/rv_9761946_17_295657.mp3",
+        "id": 827
+    },
+    {
+        "english": "there",
+        "bulgarian": "там",
+        "recording": "mp3s/bulgarian/8/c/8c_9026068_17_338592.mp3",
+        "id": 828
+    },
+    {
+        "english": "Valentine",
+        "bulgarian": "Валентин",
+        "recording": "mp3s/bulgarian/y/1/y1_8979643_17_331156_1.mp3",
+        "id": 829
+    },
+    {
+        "english": "bank",
+        "bulgarian": "банка",
+        "recording": "mp3s/bulgarian/5/x/5x_9026068_17_359216.mp3",
+        "id": 830
+    },
+    {
+        "english": "police",
+        "bulgarian": "полиция",
+        "recording": "mp3s/bulgarian/2/0/20_9109524_17_348583_431837.mp3",
+        "id": 831
+    },
+    {
+        "english": "page",
+        "bulgarian": "страница",
+        "recording": "mp3s/bulgarian/9/j/9j_9026068_17_333844.mp3",
+        "id": 832
+    },
+    {
+        "english": "rum",
+        "bulgarian": "ром",
+        "recording": "mp3s/bulgarian/u/j/uj_9761946_17_636974.mp3",
+        "id": 833
+    },
+    {
+        "english": "member",
+        "bulgarian": "член",
+        "recording": "mp3s/bulgarian/w/w/ww_9026068_17_883039.mp3",
+        "id": 834
+    },
+    {
+        "english": "Switzerland",
+        "bulgarian": "Швейцария",
+        "recording": "mp3s/bulgarian/v/r/vr_9026068_17_406079.mp3",
+        "id": 835
+    },
+    {
+        "english": "pineapple",
+        "bulgarian": "ананас",
+        "recording": "mp3s/bulgarian/8/g/8g_9399683_17_360084.mp3",
+        "id": 836
+    },
+    {
+        "english": "Venus",
+        "bulgarian": "Венера",
+        "recording": "mp3s/bulgarian/4/v/4v_8978362_17_331184_237571.mp3",
+        "id": 837
+    },
+    {
+        "english": "south",
+        "bulgarian": "юг",
+        "recording": "mp3s/bulgarian/p/p/pp_9100234_17_338572.mp3",
+        "id": 838
+    },
+    {
+        "english": "ten",
+        "bulgarian": "десет",
+        "recording": "mp3s/bulgarian/h/v/hv_10084240_17_525744.mp3",
+        "id": 839
+    },
+    {
+        "english": "menu",
+        "bulgarian": "меню",
+        "recording": "mp3s/bulgarian/9/z/9z_9265277_17_586348_1342721.mp3",
+        "id": 840
+    },
+    {
+        "english": "Boris",
+        "bulgarian": "Борис",
+        "recording": "mp3s/bulgarian/e/5/e5_8978362_17_331130_1.mp3",
+        "id": 841
+    },
+    {
+        "english": "yours",
+        "bulgarian": "твой",
+        "recording": "mp3s/bulgarian/o/x/ox_9109135_17_338986.mp3",
+        "id": 842
+    },
+    {
+        "english": "evening",
+        "bulgarian": "вечер",
+        "recording": "mp3s/bulgarian/c/t/ct_9109135_17_340170_890735.mp3",
+        "id": 843
+    },
+    {
+        "english": "hello",
+        "bulgarian": "здрасти",
+        "recording": "mp3s/bulgarian/m/l/ml_8994993_17_511023_1.mp3",
+        "id": 844
+    },
+    {
+        "english": "",
+        "bulgarian": "храм",
+        "recording": "mp3s/bulgarian/p/4/p4_9026068_17_18267.mp3",
+        "id": 845
+    },
+    {
+        "english": "",
+        "bulgarian": "час",
+        "recording": "mp3s/bulgarian/5/h/5h_9109524_17_334127_724473.mp3",
+        "id": 846
+    },
+    {
+        "english": "healthy",
+        "bulgarian": "здраво",
+        "recording": "mp3s/bulgarian/8/4/84_9109135_17_69082_24581.mp3",
+        "id": 847
+    },
+    {
+        "english": "brother",
+        "bulgarian": "брат",
+        "recording": "mp3s/bulgarian/2/k/2k_10084240_17_5212697.mp3",
+        "id": 848
+    },
+    {
+        "english": "",
+        "bulgarian": "Владимир",
+        "recording": "mp3s/bulgarian/1/p/1p_9200284_17_682809_2015446.mp3",
+        "id": 849
+    },
+    {
+        "english": "",
+        "bulgarian": "Р",
+        "recording": "mp3s/bulgarian/2/4/24_9419269_17_1349983.mp3",
+        "id": 850
+    },
+    {
+        "english": "",
+        "bulgarian": "лайка",
+        "recording": "mp3s/bulgarian/b/k/bk_9109524_17_908095_848335.mp3",
+        "id": 851
+    },
+    {
+        "english": "baby",
+        "bulgarian": "бебе",
+        "recording": "mp3s/bulgarian/t/n/tn_10084240_17_1104000.mp3",
+        "id": 852
+    },
+    {
+        "english": "",
+        "bulgarian": "болница",
+        "recording": "mp3s/bulgarian/t/o/to_9834216_17_1104405.mp3",
+        "id": 853
+    },
+    {
+        "english": "soon",
+        "bulgarian": "скоро",
+        "recording": "mp3s/bulgarian/c/u/cu_9026068_17_341204.mp3",
+        "id": 854
+    },
+    {
+        "english": "moron",
+        "bulgarian": "дебил",
+        "recording": "mp3s/bulgarian/j/3/j3_9834216_17_881615.mp3",
+        "id": 855
+    },
+    {
+        "english": "",
+        "bulgarian": "задник",
+        "recording": "mp3s/bulgarian/r/h/rh_9026068_17_1300810.mp3",
+        "id": 856
+    },
+    {
+        "english": "",
+        "bulgarian": "между",
+        "recording": "mp3s/bulgarian/h/l/hl_9026068_17_319859.mp3",
+        "id": 857
+    },
+    {
+        "english": "",
+        "bulgarian": "млъкни",
+        "recording": "mp3s/bulgarian/5/i/5i_9419269_17_3544634.mp3",
+        "id": 858
+    },
+    {
+        "english": "money",
+        "bulgarian": "пари",
+        "recording": "mp3s/bulgarian/7/p/7p_9026068_17_1104106.mp3",
+        "id": 859
+    },
+    {
+        "english": "football",
+        "bulgarian": "футбол",
+        "recording": "mp3s/bulgarian/8/v/8v_9265277_17_586239_1928089.mp3",
+        "id": 860
+    },
+    {
+        "english": "war",
+        "bulgarian": "война",
+        "recording": "mp3s/bulgarian/8/n/8n_9419269_17_365065.mp3",
+        "id": 861
+    },
+    {
+        "english": "",
+        "bulgarian": "Николай",
+        "recording": "mp3s/bulgarian/a/n/an_9026068_17_676588.mp3",
+        "id": 862
+    },
+    {
+        "english": "",
+        "bulgarian": "тя",
+        "recording": "mp3s/bulgarian/r/2/r2_10084240_17_395468.mp3",
+        "id": 863
+    },
+    {
+        "english": "",
+        "bulgarian": "татко",
+        "recording": "mp3s/bulgarian/s/q/sq_8994993_17_316257_69314.mp3",
+        "id": 864
+    },
+    {
+        "english": "iodine",
+        "bulgarian": "йод",
+        "recording": "mp3s/bulgarian/x/l/xl_9026068_17_617436.mp3",
+        "id": 865
+    },
+    {
+        "english": "excellent",
+        "bulgarian": "отлично",
+        "recording": "mp3s/bulgarian/g/m/gm_9305153_17_339328.mp3",
+        "id": 866
+    },
+    {
+        "english": "way",
+        "bulgarian": "път",
+        "recording": "mp3s/bulgarian/k/y/ky_9053652_17_874991_1.mp3",
+        "id": 867
+    },
+    {
+        "english": "food",
+        "bulgarian": "храна",
+        "recording": "mp3s/bulgarian/e/x/ex_9177959_17_308206.mp3",
+        "id": 868
+    },
+    {
+        "english": "decision",
+        "bulgarian": "решение",
+        "recording": "mp3s/bulgarian/9/h/9h_9109135_17_350662.mp3",
+        "id": 869
+    },
+    {
+        "english": "Thursday",
+        "bulgarian": "четвъртък",
+        "recording": "mp3s/bulgarian/t/i/ti_9381586_17_295104.mp3",
+        "id": 870
+    },
+    {
+        "english": "one",
+        "bulgarian": "едно",
+        "recording": "mp3s/bulgarian/5/p/5p_9005181_17_525738_1.mp3",
+        "id": 871
+    },
+    {
+        "english": "a teacher",
+        "bulgarian": "учител",
+        "recording": "mp3s/bulgarian/u/c/uc_10084240_17_1081259.mp3",
+        "id": 872
+    },
+    {
+        "english": "India",
+        "bulgarian": "Индия",
+        "recording": "mp3s/bulgarian/i/z/iz_9100234_17_626850_371504.mp3",
+        "id": 873
+    },
+    {
+        "english": "a flower",
+        "bulgarian": "цвете",
+        "recording": "mp3s/bulgarian/q/t/qt_9026068_17_552291.mp3",
+        "id": 874
+    },
+    {
+        "english": "things",
+        "bulgarian": "вещи",
+        "recording": "mp3s/bulgarian/m/6/m6_9026068_17_295649.mp3",
+        "id": 875
+    },
+    {
+        "english": "director",
+        "bulgarian": "директор",
+        "recording": "mp3s/bulgarian/c/d/cd_9026068_17_319952.mp3",
+        "id": 876
+    },
+    {
+        "english": "degree",
+        "bulgarian": "градус",
+        "recording": "mp3s/bulgarian/v/i/vi_9065324_17_902658_639654.mp3",
+        "id": 877
+    },
+    {
+        "english": "nice",
+        "bulgarian": "мило",
+        "recording": "mp3s/bulgarian/a/z/az_9560203_17_354651.mp3",
+        "id": 878
+    },
+    {
+        "english": "what",
+        "bulgarian": "що",
+        "recording": "mp3s/bulgarian/d/x/dx_9109524_17_581146_314673.mp3",
+        "id": 879
+    },
+    {
+        "english": "spring",
+        "bulgarian": "пролет",
+        "recording": "mp3s/bulgarian/n/p/np_9772167_17_678514.mp3",
+        "id": 880
+    },
+    {
+        "english": "",
+        "bulgarian": "слива",
+        "recording": "mp3s/bulgarian/s/t/st_9026068_17_565614.mp3",
+        "id": 881
+    },
+    {
+        "english": "Do you allow?",
+        "bulgarian": "Позволявате ли?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7142188.mp3",
+        "id": 882
+    },
+    {
+        "english": "breakfast",
+        "bulgarian": "закуска",
+        "recording": "mp3s/bulgarian/c/v/cv_9061162_17_320060_75763.mp3",
+        "id": 883
+    },
+    {
+        "english": "",
+        "bulgarian": "Благодаря ти много",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147795.mp3",
+        "id": 884
+    },
+    {
+        "english": "h",
+        "bulgarian": "ч",
+        "recording": "mp3s/bulgarian/y/n/yn_9419269_17_1092134.mp3",
+        "id": 885
+    },
+    {
+        "english": "Beer",
+        "bulgarian": "Бира",
+        "recording": "mp3s/bulgarian/6/4/64_9026068_17_758396.mp3",
+        "id": 886
+    },
+    {
+        "english": "come on",
+        "bulgarian": "хайде",
+        "recording": "mp3s/bulgarian/g/p/gp_9005181_17_511071_238407.mp3",
+        "id": 887
+    },
+    {
+        "english": "keyboard",
+        "bulgarian": "клавиатура",
+        "recording": "mp3s/bulgarian/r/6/r6_9053652_17_319993.mp3",
+        "id": 888
+    },
+    {
+        "english": "circus",
+        "bulgarian": "цирк",
+        "recording": "mp3s/bulgarian/h/4/h4_9109135_17_342681_516255.mp3",
+        "id": 889
+    },
+    {
+        "english": "university",
+        "bulgarian": "университет",
+        "recording": "mp3s/bulgarian/5/l/5l_9210951_17_348918_1271515.mp3",
+        "id": 890
+    },
+    {
+        "english": "b",
+        "bulgarian": "б",
+        "recording": "mp3s/bulgarian/5/p/5p_9419269_17_343239.mp3",
+        "id": 891
+    },
+    {
+        "english": "where",
+        "bulgarian": "къде",
+        "recording": "mp3s/bulgarian/e/s/es_9026068_17_1811360.mp3",
+        "id": 892
+    },
+    {
+        "english": "Peter",
+        "bulgarian": "Петър",
+        "recording": "mp3s/bulgarian/2/3/23_9118927_17_1343150_1.mp3",
+        "id": 893
+    },
+    {
+        "english": "Yu",
+        "bulgarian": "ю",
+        "recording": "mp3s/bulgarian/q/9/q9_9419269_17_1725063.mp3",
+        "id": 894
+    },
+    {
+        "english": "an american",
+        "bulgarian": "американец",
+        "recording": "mp3s/bulgarian/z/5/z5_9026068_17_586137.mp3",
+        "id": 895
+    },
+    {
+        "english": "Burgas",
+        "bulgarian": "Бургас",
+        "recording": "mp3s/bulgarian/7/6/76_9419269_17_2021889.mp3",
+        "id": 896
+    },
+    {
+        "english": "home",
+        "bulgarian": "дома",
+        "recording": "mp3s/bulgarian/7/y/7y_9026068_17_339427.mp3",
+        "id": 897
+    },
+    {
+        "english": "lemon",
+        "bulgarian": "лимон",
+        "recording": "mp3s/bulgarian/o/9/o9_9005181_17_565628_1.mp3",
+        "id": 898
+    },
+    {
+        "english": "a bed",
+        "bulgarian": "легло",
+        "recording": "mp3s/bulgarian/f/p/fp_10084240_17_343327.mp3",
+        "id": 899
+    },
+    {
+        "english": "salt",
+        "bulgarian": "сол",
+        "recording": "mp3s/bulgarian/0/k/0k_9220564_17_371872_1160367.mp3",
+        "id": 900
+    },
+    {
+        "english": "foot",
+        "bulgarian": "крак",
+        "recording": "mp3s/bulgarian/q/3/q3_10084240_17_874995.mp3",
+        "id": 901
+    },
+    {
+        "english": "Monday",
+        "bulgarian": "понеделник",
+        "recording": "mp3s/bulgarian/0/f/0f_8976823_17_62966_24550.mp3",
+        "id": 902
+    },
+    {
+        "english": "an engineer",
+        "bulgarian": "инженер",
+        "recording": "mp3s/bulgarian/o/d/od_9061162_17_295659_56640.mp3",
+        "id": 903
+    },
+    {
+        "english": "Spain",
+        "bulgarian": "Испания",
+        "recording": "mp3s/bulgarian/7/4/74_8994993_17_504643_1.mp3",
+        "id": 904
+    },
+    {
+        "english": "hero",
+        "bulgarian": "герой",
+        "recording": "mp3s/bulgarian/9/q/9q_9026068_17_586335.mp3",
+        "id": 905
+    },
+    {
+        "english": "cheese",
+        "bulgarian": "сирене",
+        "recording": "mp3s/bulgarian/p/g/pg_9636823_17_1728315.mp3",
+        "id": 906
+    },
+    {
+        "english": "an apple",
+        "bulgarian": "ябълка",
+        "recording": "mp3s/bulgarian/x/c/xc_9755318_17_320179.mp3",
+        "id": 907
+    },
+    {
+        "english": "wall",
+        "bulgarian": "стена",
+        "recording": "mp3s/bulgarian/b/6/b6_9772167_17_347556.mp3",
+        "id": 908
+    },
+    {
+        "english": "bun",
+        "bulgarian": "кок",
+        "recording": "mp3s/bulgarian/6/h/6h_9761946_17_622739.mp3",
+        "id": 909
+    },
+    {
+        "english": "attention",
+        "bulgarian": "внимание",
+        "recording": "mp3s/bulgarian/k/5/k5_9109135_17_344392_474963.mp3",
+        "id": 910
+    },
+    {
+        "english": "victory",
+        "bulgarian": "победа",
+        "recording": "mp3s/bulgarian/3/4/34_9026068_17_370117.mp3",
+        "id": 911
+    },
+    {
+        "english": "card",
+        "bulgarian": "карта",
+        "recording": "mp3s/bulgarian/s/9/s9_9109135_17_332410_1004951.mp3",
+        "id": 912
+    },
+    {
+        "english": "geography",
+        "bulgarian": "география",
+        "recording": "mp3s/bulgarian/r/j/rj_9109135_17_550853_1004954.mp3",
+        "id": 913
+    },
+    {
+        "english": "bar",
+        "bulgarian": "бар",
+        "recording": "mp3s/bulgarian/e/y/ey_9026068_17_287940.mp3",
+        "id": 914
+    },
+    {
+        "english": "Good morning!",
+        "bulgarian": "Добро утро!",
+        "recording": "mp3s/bulgarian/9001085/17/9001085_17_529138.mp3",
+        "id": 915
+    },
+    {
+        "english": "who",
+        "bulgarian": "кой",
+        "recording": "mp3s/bulgarian/s/0/s0_10084240_17_395477.mp3",
+        "id": 916
+    },
+    {
+        "english": "What do you prefer?",
+        "bulgarian": "Какво предпочиташ?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147807.mp3",
+        "id": 917
+    },
+    {
+        "english": "yeah",
+        "bulgarian": "ага",
+        "recording": "mp3s/bulgarian/g/k/gk_9109135_17_340318_950843.mp3",
+        "id": 918
+    },
+    {
+        "english": "What's your name?",
+        "bulgarian": "Как се казваш?",
+        "recording": "mp3s/bulgarian/9001085/17/9001085_17_7102116.mp3",
+        "id": 919
+    },
+    {
+        "english": "When will we meet?",
+        "bulgarian": "Кога ще се срещнем?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147808.mp3",
+        "id": 920
+    },
+    {
+        "english": "nice",
+        "bulgarian": "приятно",
+        "recording": "mp3s/bulgarian/c/t/ct_9062378_17_338895_259445.mp3",
+        "id": 921
+    },
+    {
+        "english": "ma'am",
+        "bulgarian": "госпожа",
+        "recording": "mp3s/bulgarian/y/7/y7_10084240_17_770025.mp3",
+        "id": 922
+    },
+    {
+        "english": "hat",
+        "bulgarian": "шапка",
+        "recording": "mp3s/bulgarian/0/1/01_9109135_17_586503_321717.mp3",
+        "id": 923
+    },
+    {
+        "english": "a pharmacist",
+        "bulgarian": "фармацевт",
+        "recording": "mp3s/bulgarian/9/a/9a_9053652_17_870337_1.mp3",
+        "id": 924
+    },
+    {
+        "english": "movement",
+        "bulgarian": "движение",
+        "recording": "mp3s/bulgarian/o/s/os_9109135_17_338863_146514.mp3",
+        "id": 925
+    },
+    {
+        "english": "picture",
+        "bulgarian": "картина",
+        "recording": "mp3s/bulgarian/j/4/j4_10084240_17_351057.mp3",
+        "id": 926
+    },
+    {
+        "english": "Englishman",
+        "bulgarian": "англичанин",
+        "recording": "mp3s/bulgarian/h/v/hv_9026068_17_586139.mp3",
+        "id": 927
+    },
+    {
+        "english": "a student",
+        "bulgarian": "студент",
+        "recording": "mp3s/bulgarian/i/k/ik_9186935_17_295695_1141092.mp3",
+        "id": 928
+    },
+    {
+        "english": "Is it good for you?",
+        "bulgarian": "За теб добре ли е?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147804.mp3",
+        "id": 929
+    },
+    {
+        "english": "pederast",
+        "bulgarian": "педераст",
+        "recording": "mp3s/bulgarian/s/t/st_9026068_17_783756.mp3",
+        "id": 930
+    },
+    {
+        "english": "a word",
+        "bulgarian": "дума",
+        "recording": "mp3s/bulgarian/i/z/iz_9772167_17_681507.mp3",
+        "id": 931
+    },
+    {
+        "english": "almost",
+        "bulgarian": "почти",
+        "recording": "mp3s/bulgarian/9109135/17/9109135_17_338223.mp3",
+        "id": 932
+    },
+    {
+        "english": "Alexey",
+        "bulgarian": "Алексей",
+        "recording": "mp3s/bulgarian/1/s/1s_8978362_17_331053_1.mp3",
+        "id": 933
+    },
+    {
+        "english": "Buzludzha",
+        "bulgarian": "Бузлуджа",
+        "recording": "mp3s/bulgarian/s/1/s1_9761946_17_565708.mp3",
+        "id": 934
+    },
+    {
+        "english": "price",
+        "bulgarian": "цена",
+        "recording": "mp3s/bulgarian/9/s/9s_9109135_17_344746_894982.mp3",
+        "id": 935
+    },
+    {
+        "english": "Black Sea",
+        "bulgarian": "Черно море",
+        "recording": "mp3s/bulgarian/u/o/uo_9109135_17_295091.mp3",
+        "id": 936
+    },
+    {
+        "english": "window",
+        "bulgarian": "прозорец",
+        "recording": "mp3s/bulgarian/c/u/cu_10084240_17_427774.mp3",
+        "id": 937
+    },
+    {
+        "english": "Australia",
+        "bulgarian": "Австралия",
+        "recording": "mp3s/bulgarian/8/q/8q_9834216_17_287925.mp3",
+        "id": 938
+    },
+    {
+        "english": "name",
+        "bulgarian": "име",
+        "recording": "mp3s/bulgarian/p/u/pu_10084240_17_332307.mp3",
+        "id": 939
+    },
+    {
+        "english": "under",
+        "bulgarian": "под",
+        "recording": "mp3s/bulgarian/n/n/nn_9419269_17_333218.mp3",
+        "id": 940
+    },
+    {
+        "english": "cabbage",
+        "bulgarian": "зеле",
+        "recording": "mp3s/bulgarian/n/g/ng_9026068_17_565633.mp3",
+        "id": 941
+    },
+    {
+        "english": "A stick",
+        "bulgarian": "Щека",
+        "recording": "mp3s/bulgarian/o/y/oy_9026068_17_755422.mp3",
+        "id": 942
+    },
+    {
+        "english": "Mr",
+        "bulgarian": "г",
+        "recording": "mp3s/bulgarian/j/i/ji_9419269_17_361423.mp3",
+        "id": 943
+    },
+    {
+        "english": "sycamore",
+        "bulgarian": "явор",
+        "recording": "mp3s/bulgarian/v/l/vl_9842967_17_1008555.mp3",
+        "id": 944
+    },
+    {
+        "english": "desk",
+        "bulgarian": "бюро",
+        "recording": "mp3s/bulgarian/j/u/ju_10084240_17_359083.mp3",
+        "id": 945
+    },
+    {
+        "english": "passport",
+        "bulgarian": "паспорт",
+        "recording": "mp3s/bulgarian/f/b/fb_9100234_17_555038_282894.mp3",
+        "id": 946
+    },
+    {
+        "english": "sign",
+        "bulgarian": "знак",
+        "recording": "mp3s/bulgarian/b/9/b9_9026068_17_332240.mp3",
+        "id": 947
+    },
+    {
+        "english": "success",
+        "bulgarian": "успех",
+        "recording": "mp3s/bulgarian/a/0/a0_9026068_17_849315.mp3",
+        "id": 948
+    },
+    {
+        "english": "soul",
+        "bulgarian": "душа",
+        "recording": "mp3s/bulgarian/r/a/ra_9026068_17_332105_1000586.mp3",
+        "id": 949
+    },
+    {
+        "english": "boring",
+        "bulgarian": "скучно",
+        "recording": "mp3s/bulgarian/8/c/8c_9109524_17_338922_515003.mp3",
+        "id": 950
+    },
+    {
+        "english": "child",
+        "bulgarian": "дете",
+        "recording": "mp3s/bulgarian/w/w/ww_9026068_17_332017.mp3",
+        "id": 951
+    },
+    {
+        "english": "h",
+        "bulgarian": "ь",
+        "recording": "mp3s/bulgarian/l/9/l9_9026068_17_368696.mp3",
+        "id": 952
+    },
+    {
+        "english": "giraffe",
+        "bulgarian": "жираф",
+        "recording": "mp3s/bulgarian/u/l/ul_9834216_17_877231.mp3",
+        "id": 953
+    },
+    {
+        "english": "north",
+        "bulgarian": "север",
+        "recording": "mp3s/bulgarian/y/o/yo_10196017_17_359728.mp3",
+        "id": 954
+    },
+    {
+        "english": "father",
+        "bulgarian": "отец",
+        "recording": "mp3s/bulgarian/b/a/ba_9026068_17_338834.mp3",
+        "id": 955
+    },
+    {
+        "english": "Plato",
+        "bulgarian": "Платон",
+        "recording": "mp3s/bulgarian/s/y/sy_9026068_17_790283.mp3",
+        "id": 956
+    },
+    {
+        "english": "everything",
+        "bulgarian": "все",
+        "recording": "mp3s/bulgarian/w/z/wz_9100234_17_338218_850147.mp3",
+        "id": 957
+    },
+    {
+        "english": "shake",
+        "bulgarian": "шейк",
+        "recording": "mp3s/bulgarian/2/h/2h_9761946_17_1031804.mp3",
+        "id": 958
+    },
+    {
+        "english": "but",
+        "bulgarian": "но",
+        "recording": "mp3s/bulgarian/f/t/ft_9026068_17_338426.mp3",
+        "id": 959
+    },
+    {
+        "english": "Wednesday",
+        "bulgarian": "сряда",
+        "recording": "mp3s/bulgarian/x/b/xb_9026068_17_295103.mp3",
+        "id": 960
+    },
+    {
+        "english": "F",
+        "bulgarian": "Ф",
+        "recording": "mp3s/bulgarian/s/t/st_9419269_17_1349989.mp3",
+        "id": 961
+    },
+    {
+        "english": "Eugenia",
+        "bulgarian": "Евгения",
+        "recording": "mp3s/bulgarian/v/5/v5_9443759_17_510948.mp3",
+        "id": 962
+    },
+    {
+        "english": "lesson",
+        "bulgarian": "урок",
+        "recording": "mp3s/bulgarian/w/0/w0_9834216_17_345087.mp3",
+        "id": 963
+    },
+    {
+        "english": "alphabet",
+        "bulgarian": "азбука",
+        "recording": "mp3s/bulgarian/h/1/h1_9610995_17_569891.mp3",
+        "id": 964
+    },
+    {
+        "english": "Nicholas",
+        "bulgarian": "Никола",
+        "recording": "mp3s/bulgarian/w/a/wa_9026068_17_903135.mp3",
+        "id": 965
+    },
+    {
+        "english": "Sugar",
+        "bulgarian": "Захар",
+        "recording": "mp3s/bulgarian/1/1/11_9772167_17_511860.mp3",
+        "id": 966
+    },
+    {
+        "english": "quail",
+        "bulgarian": "пъдпъдък",
+        "recording": "mp3s/bulgarian/t/b/tb_9026068_17_1102339.mp3",
+        "id": 967
+    },
+    {
+        "english": "a feeling",
+        "bulgarian": "чувство",
+        "recording": "mp3s/bulgarian/k/e/ke_9026068_17_343227.mp3",
+        "id": 968
+    },
+    {
+        "english": "Saturday",
+        "bulgarian": "събота",
+        "recording": "mp3s/bulgarian/t/8/t8_9755318_17_295106.mp3",
+        "id": 969
+    },
+    {
+        "english": "letter",
+        "bulgarian": "буква",
+        "recording": "mp3s/bulgarian/z/v/zv_9109524_17_788327_607922.mp3",
+        "id": 970
+    },
+    {
+        "english": "Georgieva",
+        "bulgarian": "Георгиева",
+        "recording": "mp3s/bulgarian/7/i/7i_9253293_17_596116.mp3",
+        "id": 971
+    },
+    {
+        "english": "namely",
+        "bulgarian": "именно",
+        "recording": "mp3s/bulgarian/i/r/ir_9026068_17_339217.mp3",
+        "id": 972
+    },
+    {
+        "english": "Maria",
+        "bulgarian": "Мария",
+        "recording": "mp3s/bulgarian/h/2/h2_9109135_17_510938_869187.mp3",
+        "id": 973
+    },
+    {
+        "english": "club",
+        "bulgarian": "клуб",
+        "recording": "mp3s/bulgarian/z/5/z5_10279980_17_365406.mp3",
+        "id": 974
+    },
+    {
+        "english": "catalog",
+        "bulgarian": "каталог",
+        "recording": "mp3s/bulgarian/9/q/9q_10279980_17_869590.mp3",
+        "id": 975
+    },
+    {
+        "english": "See you soon!",
+        "bulgarian": "До скоро!",
+        "recording": "mp3s/bulgarian/b/l/bl_9109135_17_529146.mp3",
+        "id": 976
+    },
+    {
+        "english": "Afghanistan",
+        "bulgarian": "Афганистан",
+        "recording": "mp3s/bulgarian/p/t/pt_9100234_17_557130_287468.mp3",
+        "id": 977
+    },
+    {
+        "english": "Europe",
+        "bulgarian": "Европа",
+        "recording": "mp3s/bulgarian/m/s/ms_9834216_17_346369.mp3",
+        "id": 978
+    },
+    {
+        "english": "honey",
+        "bulgarian": "мила",
+        "recording": "mp3s/bulgarian/q/8/q8_9060604_17_366026_251817.mp3",
+        "id": 979
+    },
+    {
+        "english": "Shut the hell up!",
+        "bulgarian": "Млъкни по дяволите!",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7123035.mp3",
+        "id": 980
+    },
+    {
+        "english": "vacuum cleaner",
+        "bulgarian": "прахосмукачка",
+        "recording": "mp3s/bulgarian/a/m/am_9772167_17_1309814.mp3",
+        "id": 981
+    },
+    {
+        "english": "bathroom",
+        "bulgarian": "баня",
+        "recording": "mp3s/bulgarian/q/e/qe_10084240_17_844063.mp3",
+        "id": 982
+    },
+    {
+        "english": "year",
+        "bulgarian": "година",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_331032.mp3",
+        "id": 983
+    },
+    {
+        "english": "parents",
+        "bulgarian": "родители",
+        "recording": "mp3s/bulgarian/6/y/6y_9026068_17_343600.mp3",
+        "id": 984
+    },
+    {
+        "english": "Stefan",
+        "bulgarian": "Стефан",
+        "recording": "mp3s/bulgarian/i/7/i7_9026068_17_1901893.mp3",
+        "id": 985
+    },
+    {
+        "english": "mathematics",
+        "bulgarian": "математика",
+        "recording": "mp3s/bulgarian/g/w/gw_9772167_17_357225.mp3",
+        "id": 986
+    },
+    {
+        "english": "salami",
+        "bulgarian": "салам",
+        "recording": "mp3s/bulgarian/3/s/3s_9772167_17_664429.mp3",
+        "id": 987
+    },
+    {
+        "english": "i have",
+        "bulgarian": "имам",
+        "recording": "mp3s/bulgarian/u/2/u2_9109135_17_984628_1.mp3",
+        "id": 988
+    },
+    {
+        "english": "artery",
+        "bulgarian": "артерия",
+        "recording": "mp3s/bulgarian/x/g/xg_9053652_17_807852_523773.mp3",
+        "id": 989
+    },
+    {
+        "english": "horror",
+        "bulgarian": "ужас",
+        "recording": "mp3s/bulgarian/k/b/kb_9026068_17_333986.mp3",
+        "id": 990
+    },
+    {
+        "english": "homeland",
+        "bulgarian": "родина",
+        "recording": "mp3s/bulgarian/3/g/3g_10079439_17_800259.mp3",
+        "id": 991
+    },
+    {
+        "english": "rain",
+        "bulgarian": "дъжд",
+        "recording": "mp3s/bulgarian/a/4/a4_9026068_17_1872397.mp3",
+        "id": 992
+    },
+    {
+        "english": "Zhenya",
+        "bulgarian": "Женя",
+        "recording": "mp3s/bulgarian/h/s/hs_9026068_17_878044.mp3",
+        "id": 993
+    },
+    {
+        "english": "Good day!",
+        "bulgarian": "Добър ден!",
+        "recording": "mp3s/bulgarian/k/n/kn_9001085_17_529137_1.mp3",
+        "id": 994
+    },
+    {
+        "english": "an island",
+        "bulgarian": "остров",
+        "recording": "mp3s/bulgarian/z/n/zn_9100234_17_361188_319886.mp3",
+        "id": 995
+    },
+    {
+        "english": "do you speak english",
+        "bulgarian": "Говориш ли английски?",
+        "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147803.mp3",
+        "id": 996
+    },
+    {
+        "english": "Eyes",
+        "bulgarian": "Очи",
+        "recording": "mp3s/bulgarian/3/t/3t_10084240_17_371867.mp3",
+        "id": 997
+    },
+    {
+        "english": "blue",
+        "bulgarian": "синьо",
+        "recording": "mp3s/bulgarian/d/g/dg_10084240_17_3282752.mp3",
+        "id": 998
+    },
+    {
+        "english": "alive",
+        "bulgarian": "жив",
+        "recording": "mp3s/bulgarian/a/y/ay_9026068_17_332127.mp3",
+        "id": 999
+    },
+    {
+        "english": "Slovenia",
+        "bulgarian": "Словения",
+        "recording": "mp3s/bulgarian/r/o/ro_9100234_17_680972_434320.mp3",
+        "id": 1000
+    },
+    {
+        "english": "green",
+        "bulgarian": "зелено",
+        "recording": "mp3s/bulgarian/f/o/fo_9026068_17_69060.mp3",
+        "id": 1001
+    },
+    {
+        "english": "door",
+        "bulgarian": "врата",
+        "recording": "mp3s/bulgarian/v/d/vd_9772167_17_331917.mp3",
+        "id": 1002
+    },
+    {
+        "english": "belly",
+        "bulgarian": "корем",
+        "recording": "mp3s/bulgarian/n/c/nc_9772167_17_874999.mp3",
+        "id": 1003
+    },
+    {
+        "english": "black",
+        "bulgarian": "черен",
+        "recording": "mp3s/bulgarian/d/v/dv_9772167_17_352059.mp3",
+        "id": 1004
+    },
+    {
+        "english": "summer",
+        "bulgarian": "лято",
+        "recording": "mp3s/bulgarian/2/9/29_9772167_17_678515.mp3",
+        "id": 1005
+    },
+    {
+        "english": "sh",
+        "bulgarian": "ш",
+        "recording": "mp3s/bulgarian/a/t/at_9419269_17_901159.mp3",
+        "id": 1006
+    },
+    {
+        "english": "armor",
+        "bulgarian": "броня",
+        "recording": "mp3s/bulgarian/f/t/ft_9109135_17_1104466_1.mp3",
+        "id": 1007
+    },
+    {
+        "english": "brandy",
+        "bulgarian": "ракия",
+        "recording": "mp3s/bulgarian/l/b/lb_9026068_17_511039.mp3",
+        "id": 1008
+    },
+    {
+        "english": "a pencil",
+        "bulgarian": "молив",
+        "recording": "mp3s/bulgarian/p/k/pk_9772167_17_983529.mp3",
+        "id": 1009
+    },
+    {
+        "english": "A shirt",
+        "bulgarian": "Риза",
+        "recording": "mp3s/bulgarian/g/3/g3_9109135_17_737157_948354.mp3",
+        "id": 1010
+    },
+    {
+        "english": "wheel",
+        "bulgarian": "колело",
+        "recording": "mp3s/bulgarian/i/0/i0_9026068_17_1811020.mp3",
+        "id": 1011
+    },
+    {
+        "english": "by",
+        "bulgarian": "по",
+        "recording": "mp3s/bulgarian/d/d/dd_9109135_17_333200_710054.mp3",
+        "id": 1012
     }
 ]
