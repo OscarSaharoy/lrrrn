@@ -1,0 +1,629 @@
+(outer) space
+actor
+adjective
+adult
+afternoon
+air
+airport
+alive
+animal
+apartment
+apple
+April
+arm
+army
+art
+artist
+attack
+August
+author 
+baby
+back (body)
+back (direction)
+bad
+bag
+ball
+banana
+band
+bank
+bar
+bathroom
+beach
+beard
+beautiful
+bed
+bedroom
+beef
+beer
+beverage
+bike
+bill
+billion
+bird
+black
+blind
+blood
+blue
+boat
+body
+bone
+book
+bottle
+bottom
+box
+boy
+brain
+bread
+breakfast
+bridge
+brother
+brown
+building
+bus
+cake
+camera
+camp
+car
+card
+cat
+ceiling
+cell phone
+centimeter
+chair
+cheap
+cheese
+chicken
+child
+church 
+circle
+city
+clay
+clean
+clock
+clothing
+club
+coat
+coffee
+cold
+color
+computer
+consonant
+contract
+cool
+copper
+corn
+corner
+country
+court
+cow
+crowd
+cup
+curved
+dark
+date
+daughter
+day
+dead
+deaf
+death
+December
+deep
+diamond
+dinner
+direction
+dirty
+disease
+doctor
+dog
+dollar
+door
+dot
+down
+dream
+dress
+drug
+dry
+dust
+ear
+earth
+east
+edge
+egg
+election
+energy
+engine
+evening 
+exercise
+expensive
+explode
+eye
+face
+fall
+family
+famous
+fan (appliance)
+fan (sports)
+farm
+fast
+father
+February
+female
+finger
+fire
+fish
+flat
+floor
+flower
+food
+foot
+foot
+forest
+fork
+Friday
+friend
+front
+game
+garden
+gasoline
+gift
+girl
+glass
+God
+gold
+good
+grandfather
+grandmother
+grass
+gray
+green
+ground
+gun
+hair
+half
+hand
+happy
+hard
+hat
+he
+head
+healthy
+heart
+heat
+heaven
+heavy
+hell
+high
+hill
+hole
+home
+horse
+hospital
+hot
+hotel
+hour
+house
+human
+husband 
+I
+ice
+image
+inch
+injury
+inside
+instrument
+island
+it
+January
+job
+juice
+july
+June
+key
+kilogram
+king
+kitchen
+knee
+knife
+lake
+lamp
+laptop
+large/big
+lawyer
+leaf
+left
+leg
+lemon
+letter
+library
+light (vs heavy)
+light (noun)
+light (color)
+lip
+location
+lock
+long
+loose
+loud
+low
+lunch
+magazine
+male
+man
+manager
+map
+market
+marriage
+material
+May
+mean
+medicine
+metal
+meter 
+milk
+million
+minute
+Monday
+money
+month
+moon
+morning
+mother
+mountain
+mouse
+mouth
+movie
+murder
+music
+narrow
+nature
+neck
+needle
+neighbor
+network
+new
+newspaper 
+nice
+night
+no
+north
+nose
+note
+noun
+November
+nuclear
+number
+ocean
+October
+office 
+oil
+old (vs young)
+old (vs new)
+orange
+orange
+outside
+page
+pain
+paint
+pants
+paper
+parents
+park
+patient
+pattern
+peace
+pen
+pencil
+person
+photograph
+piece
+pig
+pink
+plane
+plant
+plastic
+plate
+player
+pocket
+poison
+police
+pool
+poor
+pork
+pound
+president
+price
+priest
+prison
+program (computer)
+queen
+quiet
+race (ethnicity)
+race (sport)
+radio
+rain
+red
+religion
+reporter
+restaurant
+rice
+rich
+right
+ring
+river
+roof
+room
+root
+sad
+salt
+sand
+Saturday 
+school
+science
+screen
+sea
+season
+second
+secretary
+seed
+September
+September
+sex (gender)
+sex (the act)
+shallow
+she
+ship
+shirt
+shoes
+short
+short (vs long)
+shoulder
+sick
+side
+sign
+silver
+sister  
+skin
+skirt
+sky
+slow
+small/little
+snow 
+soap
+soft
+soil
+soldier
+son
+song
+sound
+soup
+south
+spoon
+sport
+Spring
+square
+stain
+star
+stone
+store/shop
+straight
+street
+strong
+student
+sugar
+suit
+summer
+sun
+Sunday
+sweat
+T-Shirt
+table
+tall
+tea
+teacher
+team
+tear (drop)
+technology
+telephone
+television
+temperature
+theater
+they
+thick
+thin
+Thursday
+ticket
+tight
+time
+tire
+to beat/hit
+to bend
+to break
+to build
+to burn
+to buy
+to call
+to carry
+to catch
+to clean
+to close
+to cook
+to count
+to cry
+to cut
+to dance
+to die
+to dig
+to draw
+to drink
+to drive
+to eat
+to fall
+to feed
+to fight
+to find
+to fly
+to follow
+to go
+to grow
+to hang
+to hear 
+to jump
+to kill
+to kiss
+to laugh
+to learn
+to lie down
+to lift
+to listen
+to live
+to lose
+to love
+to marry
+to melt
+to mix
+to open
+to pass by
+to pay
+to play
+to pray
+to pull
+to push
+to run
+to see
+to sell
+to shake
+to shoot
+to sign
+to sing
+to sit
+to sleep
+to smell
+to smile
+to speak/say
+to stand
+to stop
+to swim
+to taste
+to teach
+to think
+to throw
+to touch
+to turn
+to wake
+to walk
+to wash
+to watch
+to wear
+to win
+to work
+to write
+toe
+tongue
+tool
+tooth
+top
+town
+train
+train station
+transportation
+tree
+truck
+Tuesday
+ugly
+university
+up
+valley 
+verb
+victim
+voice
+vowel
+waiter
+wall
+war
+warm
+water
+wave
+we
+weak
+wedding
+Wednesday
+week
+weight
+west
+wet
+white
+wide
+wife
+wind
+window
+wine
+wing
+winter
+woman
+wood
+world
+yard
+year
+yellow
+yes
+you (singular)
+you (plural)
+young
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+30
+31
+32
+40
+41
+42
+50
+51
+52
+60
+61
+62
+70
+71
+72
+80
+81
+82
+90
+91
+92
+100
+101
+102
+110
+111
+1000
+1001
+10000
+100000
+1st
+2nd
+3rd
+4th
+5th

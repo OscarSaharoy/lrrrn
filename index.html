@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<head> <!-- head -------------------------------------------------- -->
+
+
+
+
+<title> 💬 lrrrn </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+:root {
+    font-size: min(1em, 2.6vw);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+button {
+    appearance: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    grid-auto-flow: column;
+    gap: 0.5rem;
+}
+button:hover {
+    text-shadow: 0 0 1.5rem white;
+}
+
+.key, input {
+    color: white;
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 0.4rem 0.7rem;
+    border: 1px solid #fff4;
+    border-radius: 0.8rem;
+    background: none;
+}
+
+</style>
+
+
+
+
+</head>
+<body> <!-- body -------------------------------------------------- -->
+
+
+
+
+<div style="width: 100vw; height: 100vh; display: grid; place-items: center;">
+
+    <audio autoplay controls class="recording" style="display: none;">
+      <source src="" type="audio/mpeg">
+    </audio>
+    
+    <article style="display: grid; gap: 1rem; font-size: 2rem; width: 100vw; max-width: 44rem; padding: 3rem;">
+        <div style="display: grid; grid-auto-flow: column; gap: 2rem; margin-top: 2rem; height: 3rem; grid-template-columns: 1fr 1fr 1fr;">
+            <button id="listen" style="text-decoration: underline;">listen</button>
+            <button id="speak">speak</button>
+            <button id="dictionary">dictionary</button>
+        </div>
+
+        <div class="prompt" style="display: grid; gap: 0.7rem; height: 33vh; align-content: center; place-items: center; text-align: center;">
+            <p class="english"> lrrrn </p>
+        </div>
+
+        <div class="phrase" style="display: grid; gap: 0.7rem; height: 33vh; align-content: center; display: none; place-items: center; text-align: center;">
+            <p class="foreign"> foreign </p>
+            <p class="transliteration"> transliteration </p>
+            <p class="english"> english </p>
+        </div>
+
+        <div class="search" style="display: none; gap: 2rem; height: 70vh; align-content: start; text-align: center; grid-template-rows: max-content 1fr;">
+            <input id="search-box" style="padding: 1rem; background: #fff1; font-family: serif; font-size: 1.5rem; border-radius: 1.5rem;" placeholder="Search" />
+            
+            <button id="result-template" class="result" style="display: none; gap: 0.7rem; align-content: center; place-items: center; text-align: center; grid-auto-flow: row;">
+                <p class="foreign"> foreign </p>
+                <p class="transliteration"> transliteration </p>
+                <p class="english"> english </p>
+            </button>
+
+            <div id="search-results" style="display: grid; align-content: start; gap: 3rem; height: 110%; overflow: scroll;">
+            </div>
+        </div>
+
+        <div class="buttons" style="display: grid; grid-auto-flow: column; gap: 2rem; margin-top: 2rem; height: 3rem; grid-template-columns: 1fr 1fr 1fr; align-items: center;">
+            <button id="replay"><span class="key">R</span> <p>replay</p></button>
+            <p id="score" style="font-family: monospace; font-size: 1.6rem; text-align: center;"> 0 </p>
+            <button id="continue"><span class="key">Space</span> <p style="width: 5rem; text-align: left;">next</p></button>
+        </div>
+    </article>
+
+
+</div>
+
+
+
+<!--<script src="data.json.js"></script>-->
+<script src="data.bg.json.js"></script>
+<script src="words.json.js"></script>
+<script>
+
+const data = dataBg;
+const wordsData = data;
+//const wordsData = data.filter(d => words.includes(d.english?.toLowerCase()) || d.category === "conversation-starters");
+
+let mode = "listen";
+let score = 0;
+
+function setMode(newMode) {
+    mode = newMode;
+
+    document.querySelector("#listen").style.textDecoration = mode === "listen" ? "underline" : "none";
+    document.querySelector("#speak").style.textDecoration  = mode === "speak"  ? "underline" : "none";
+    document.querySelector("#dictionary").style.textDecoration  = mode === "dictionary"  ? "underline" : "none";
+
+    if(newMode === "dictionary") show(".search") + showResults("");
+    else setCard(getRandomPhrase());
+}
+
+function setRecording(phrase) {
+    const recording = document.querySelector(".recording");
+    const recordingClone = recording.cloneNode(true);
+    recordingClone.volume = 1;
+    recording.parentElement.prepend(recordingClone);
+    recording.remove();
+
+    const source = recordingClone.querySelector("source");
+    const sourceClone = source.cloneNode();
+    source.remove();
+    sourceClone.setAttribute("src", phrase.recording);
+    recordingClone.appendChild(sourceClone);
+}
+
+function pause() {
+    document.querySelector(".recording").pause();
+}
+
+function replay() {
+    pause();
+    document.querySelector(".recording").currentTime = 0;
+    document.querySelector(".recording").play();
+}
+
+function say( s, lang="en" ) {
+    const synth = window.speechSynthesis;
+    const utterThis = new SpeechSynthesisUtterance(s);
+    utterThis.voice = {
+        "en": synth.getVoices()[4],
+        "bg": synth.getVoices().filter(v => v.lang.includes("bg"))[0],
+        "ar": synth.getVoices().filter(v => v.lang.includes("ar"))[0],
+    }[lang];
+    synth.speak(utterThis);
+}
+
+function show(className) {
+    document.querySelector(".prompt").style.display = className === ".prompt" ? "grid" : "none";
+    document.querySelector(".phrase").style.display = className === ".phrase" ? "grid" : "none";
+    document.querySelector(".search").style.display = className === ".search" ? "grid" : "none";
+    document.querySelector(".buttons").style.display = className !== ".search" ? "grid" : "none";
+
+    if( className === ".phrase" ) {
+        mode === "speak" ? replay() : pause() + say(document.querySelector(".english").textContent);
+        score += 1;
+        document.querySelector("#score").innerText = score;
+        document.querySelector("#continue p").innerText = "next";
+    }
+}
+
+function setCard(phrase) {
+    document.querySelector(".prompt .english").innerText = phrase.english || phrase.description;
+    document.querySelector(".phrase .english").innerText = phrase.english || phrase.description;
+    document.querySelector(".phrase .foreign").innerText = phrase.arabic || phrase.bulgarian;
+    if( phrase.transliteration ) {
+        document.querySelector(".phrase .transliteration").style.display = "unset";
+        document.querySelector(".phrase .transliteration").innerText = phrase.transliteration;
+    } else {
+        document.querySelector(".phrase .transliteration").style.display = "none";
+    }
+
+    setRecording(phrase);
+    show(".prompt");
+    if( mode === "speak" ) pause() + say(phrase.english || phrase.description);
+    document.querySelector(".prompt .english").style.display = mode === "listen" ? "none" : "unset";
+    document.querySelector("#continue p").innerText = "reveal";
+}
+
+function getRandomPhrase() {
+    const phrasesWithRecording = wordsData.filter(p => !!p.recording);
+    return phrasesWithRecording[Math.floor(Math.random() * phrasesWithRecording.length)]
+}
+
+function showResults() {
+    const searchTerm = document.querySelector("input").value;
+    const resultPhrases = data
+        .filter( d => (d.english || d.description).toLowerCase().includes(searchTerm.toLowerCase()) || (d.arabic || d.bulgarian).includes(searchTerm) || d.transliteration.includes(searchTerm) )
+        .sort( (d1, d2) => (d1.english || d1.description).localeCompare(d2.english || d2.description) );
+
+    const template = document.querySelector("#result-template");
+    const searchResults = document.querySelector("#search-results");
+    searchResults.innerHTML = "";
+
+    for( const resultPhrase of resultPhrases ) {
+        const result = template.cloneNode(true);
+        result.querySelector(".english").innerText = resultPhrase.english || resultPhrase.description;
+        result.querySelector(".transliteration").style.display = resultPhrase.transliteration ? "unset" : "none";
+        result.querySelector(".transliteration").innerText = resultPhrase.transliteration;
+        result.querySelector(".foreign").innerText = resultPhrase.arabic || resultPhrase.bulgarian;
+        result.style.display = "grid";
+        result.onclick = () => setRecording(resultPhrase) + replay();
+        searchResults.appendChild(result);
+    }
+}
+
+function next() {
+    const prompt = document.querySelector(".prompt");
+    if( prompt.style.display === "grid" && prompt.textContent.trim() !== "lrrrn" ) {
+        show(".phrase");
+    } else {
+        setCard(getRandomPhrase());
+    }
+}
+
+document.querySelector("#listen").onclick = () => setMode("listen");
+document.querySelector("#speak").onclick = () => setMode("speak");
+document.querySelector("#dictionary").onclick = () => setMode("dictionary");
+document.querySelector("#continue").onclick = next;
+document.querySelector("#replay").onclick = replay;
+document.onkeydown = e =>
+    mode !== "dictionary" ? (
+        e.key === " " ? next() + e.preventDefault() :
+        e.key === "r" ? replay() : null
+    ) : null;
+
+document.querySelector("#search-box").oninput = showResults;
+
+</script>
+
+
+
+
+</body> 
+</html>
