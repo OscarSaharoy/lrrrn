@@ -1,5 +1,6 @@
-# sudanese arabic
+# lrrrn
 
 This uses the great resources from https://www.speaksudanese.com/ to make a flashcard app for learning sudanese arabic.
 
-https://sudanese-arabic-three.vercel.app/
+I have also added bulgarian, with recordings from across the internet.
+
