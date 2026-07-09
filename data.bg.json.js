@@ -4532,13 +4532,13 @@ const dataBg = [
         "id": 844
     },
     {
-        "english": "",
+        "english": "temple",
         "bulgarian": "храм",
         "recording": "mp3s/bulgarian/p/4/p4_9026068_17_18267.mp3",
         "id": 845
     },
     {
-        "english": "",
+        "english": "hour",
         "bulgarian": "час",
         "recording": "mp3s/bulgarian/5/h/5h_9109524_17_334127_724473.mp3",
         "id": 846
@@ -4556,7 +4556,7 @@ const dataBg = [
         "id": 848
     },
     {
-        "english": "",
+        "english": "vladimir",
         "bulgarian": "Владимир",
         "recording": "mp3s/bulgarian/1/p/1p_9200284_17_682809_2015446.mp3",
         "id": 849
@@ -4580,7 +4580,7 @@ const dataBg = [
         "id": 852
     },
     {
-        "english": "",
+        "english": "hospital",
         "bulgarian": "болница",
         "recording": "mp3s/bulgarian/t/o/to_9834216_17_1104405.mp3",
         "id": 853
@@ -4598,19 +4598,19 @@ const dataBg = [
         "id": 855
     },
     {
-        "english": "",
+        "english": "ass",
         "bulgarian": "задник",
         "recording": "mp3s/bulgarian/r/h/rh_9026068_17_1300810.mp3",
         "id": 856
     },
     {
-        "english": "",
+        "english": "between",
         "bulgarian": "между",
         "recording": "mp3s/bulgarian/h/l/hl_9026068_17_319859.mp3",
         "id": 857
     },
     {
-        "english": "",
+        "english": "shut up",
         "bulgarian": "млъкни",
         "recording": "mp3s/bulgarian/5/i/5i_9419269_17_3544634.mp3",
         "id": 858
@@ -4634,19 +4634,19 @@ const dataBg = [
         "id": 861
     },
     {
-        "english": "",
+        "english": "nikolai",
         "bulgarian": "Николай",
         "recording": "mp3s/bulgarian/a/n/an_9026068_17_676588.mp3",
         "id": 862
     },
     {
-        "english": "",
+        "english": "she",
         "bulgarian": "тя",
         "recording": "mp3s/bulgarian/r/2/r2_10084240_17_395468.mp3",
         "id": 863
     },
     {
-        "english": "",
+        "english": "dad",
         "bulgarian": "татко",
         "recording": "mp3s/bulgarian/s/q/sq_8994993_17_316257_69314.mp3",
         "id": 864
@@ -4748,7 +4748,7 @@ const dataBg = [
         "id": 880
     },
     {
-        "english": "",
+        "english": "plum",
         "bulgarian": "слива",
         "recording": "mp3s/bulgarian/s/t/st_9026068_17_565614.mp3",
         "id": 881
@@ -4766,7 +4766,7 @@ const dataBg = [
         "id": 883
     },
     {
-        "english": "",
+        "english": "thankyou very much",
         "bulgarian": "Благодаря ти много",
         "recording": "mp3s/bulgarian/9026068/17/9026068_17_7147795.mp3",
         "id": 884
