@@ -212,8 +212,9 @@ function getRandomPhrase() {
 
 function showResults() {
     const searchTerm = document.querySelector("input").value;
-    const resultPhrases = data
-        .filter( d => (d.english || d.description).toLowerCase().includes(searchTerm.toLowerCase()) || (d.arabic || d.bulgarian).includes(searchTerm) || d.transliteration.includes(searchTerm) )
+    console.log([...dataBg, ...dataAr].filter(d => !(d.english || d.description)))
+    const resultPhrases = [...dataBg, ...dataAr]
+        .filter( d => (d.english || d.description).toLowerCase().includes(searchTerm.toLowerCase()) || (d.arabic || d.bulgarian).includes(searchTerm) || d.transliteration?.includes(searchTerm) )
         .sort( (d1, d2) => (d1.english || d1.description).localeCompare(d2.english || d2.description) );
 
     const template = document.querySelector("#result-template");

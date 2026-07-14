@@ -4562,13 +4562,13 @@ const dataBg = [
         "id": 849
     },
     {
-        "english": "",
+        "english": "P",
         "bulgarian": "Р",
         "recording": "mp3s/bulgarian/2/4/24_9419269_17_1349983.mp3",
         "id": 850
     },
     {
-        "english": "",
+        "english": "Laika",
         "bulgarian": "лайка",
         "recording": "mp3s/bulgarian/b/k/bk_9109524_17_908095_848335.mp3",
         "id": 851
