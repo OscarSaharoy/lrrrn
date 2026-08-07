@@ -118,12 +118,13 @@ button:hover {
 
 <!--<script src="data.json.js"></script>-->
 <script src="data.bg.json.js"></script>
+<script src="data.phrases.bg.json.js"></script>
 <script src="data.json.js"></script>
 <script src="words.json.js"></script>
 <script>
 
 const wordsDataAr = dataAr.filter(d => words.includes(d.english?.toLowerCase()) || d.category === "conversation-starters");
-let wordsData = dataBg
+let wordsData = dataPhrasesBg
 let mode = "listen";
 let score = 0;
 
