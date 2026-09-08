@@ -124,7 +124,7 @@ button:hover {
 <script>
 
 const wordsDataAr = dataAr.filter(d => words.includes(d.english?.toLowerCase()) || d.category === "conversation-starters");
-let wordsData = dataPhrasesBg
+let wordsData = [...dataPhrasesBg, ...dataBg];
 let mode = "listen";
 let score = 0;
 
