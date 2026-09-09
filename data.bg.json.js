@@ -5538,5 +5538,719 @@ const dataBg = [
         "bulgarian": "по",
         "recording": "mp3s/bulgarian/d/d/dd_9109135_17_333200_710054.mp3",
         "id": 1012
+    },
+    {
+        "english": "eat",
+        "bulgarian": "ям",
+        "recording": "mp3s/bulgarian/1008641.mp3",
+        "id": 2000
+    },
+    {
+        "english": "The family is eating breakfast together.",
+        "bulgarian": "Семейството яде закуска заедно.",
+        "recording": "mp3s/bulgarian/693255.mp3",
+        "id": 2001
+    },
+    {
+        "english": "wash",
+        "bulgarian": "мия",
+        "recording": "mp3s/bulgarian/693290.mp3",
+        "id": 2002
+    },
+    {
+        "english": "The woman is washing her face.",
+        "bulgarian": "Жената си мие лицето.",
+        "recording": "mp3s/bulgarian/693293.mp3",
+        "id": 2003
+    },
+    {
+        "english": "brush",
+        "bulgarian": "четкам",
+        "recording": "mp3s/bulgarian/605337.mp3",
+        "id": 2004
+    },
+    {
+        "english": "The woman brushed her teeth.",
+        "bulgarian": "Жената си изми зъбите.",
+        "recording": "mp3s/bulgarian/693251.mp3",
+        "id": 2005
+    },
+    {
+        "english": "wake up",
+        "bulgarian": "будя се",
+        "recording": "mp3s/bulgarian/693280.mp3",
+        "id": 2006
+    },
+    {
+        "english": "wake up in the morning",
+        "bulgarian": "будя се сутрин",
+        "recording": "mp3s/bulgarian/693287.mp3",
+        "id": 2007
+    },
+    {
+        "english": "sleep",
+        "bulgarian": "спя",
+        "recording": "mp3s/bulgarian/652071.mp3",
+        "id": 2008
+    },
+    {
+        "english": "The girl is about to sleep.",
+        "bulgarian": "Момичето заспива.",
+        "recording": "mp3s/bulgarian/652075.mp3",
+        "id": 2009
+    },
+    {
+        "english": "bathe",
+        "bulgarian": "къпя се",
+        "recording": "mp3s/bulgarian/652060.mp3",
+        "id": 2010
+    },
+    {
+        "english": "The brothers bathed in the bathtub.",
+        "bulgarian": "Братята се изкъпаха във ваната.",
+        "recording": "mp3s/bulgarian/652067.mp3",
+        "id": 2011
+    },
+    {
+        "english": "shower",
+        "bulgarian": "вземам душ",
+        "recording": "mp3s/bulgarian/996960.mp3",
+        "id": 2012
+    },
+    {
+        "english": "The man showers in the morning.",
+        "bulgarian": "Мъжът се къпе под душа сутрин.",
+        "recording": "mp3s/bulgarian/539980.mp3",
+        "id": 2013
+    },
+    {
+        "english": "watch",
+        "bulgarian": "гледам",
+        "recording": "mp3s/bulgarian/652035.mp3",
+        "id": 2014
+    },
+    {
+        "english": "watch a sunset",
+        "bulgarian": "гледам залез",
+        "recording": "mp3s/bulgarian/652044.mp3",
+        "id": 2015
+    },
+    {
+        "english": "return",
+        "bulgarian": "връщам се",
+        "recording": "mp3s/bulgarian/539972.mp3",
+        "id": 2016
+    },
+    {
+        "english": "return home in the evening",
+        "bulgarian": "връщам се вкъщи вечерта",
+        "recording": "mp3s/bulgarian/693267.mp3",
+        "id": 2017
+    },
+    {
+        "english": "use",
+        "bulgarian": "използвам",
+        "recording": "mp3s/bulgarian/358652.mp3",
+        "id": 2018
+    },
+    {
+        "english": "The programmer uses the computer.",
+        "bulgarian": "Програмистът използва компютъра.",
+        "recording": "mp3s/bulgarian/358658.mp3",
+        "id": 2019
+    },
+    {
+        "english": "want",
+        "bulgarian": "искам",
+        "recording": "mp3s/bulgarian/1008557.mp3",
+        "id": 2020
+    },
+    {
+        "english": "The office workers wanted the doughnut.",
+        "bulgarian": "Служителите искаха поничката.",
+        "recording": "mp3s/bulgarian/358616.mp3",
+        "id": 2021
+    },
+    {
+        "english": "make",
+        "bulgarian": "правя",
+        "recording": "mp3s/bulgarian/358592.mp3",
+        "id": 2022
+    },
+    {
+        "english": "The chef made orange juice.",
+        "bulgarian": "Готвачът направи портокалов сок.",
+        "recording": "mp3s/bulgarian/358598.mp3",
+        "id": 2023
+    },
+    {
+        "english": "do",
+        "bulgarian": "правя",
+        "recording": "mp3s/bulgarian/358592.mp3",
+        "id": 2024
+    },
+    {
+        "english": "The woman did housework.",
+        "bulgarian": "Жената свърши домакинска работа.",
+        "recording": "mp3s/bulgarian/358583.mp3",
+        "id": 2025
+    },
+    {
+        "english": "wait",
+        "bulgarian": "чакам",
+        "recording": "mp3s/bulgarian/358691.mp3",
+        "id": 2026
+    },
+    {
+        "english": "The traveler waited for the train.",
+        "bulgarian": "Пътникът чака за влака.",
+        "recording": "mp3s/bulgarian/358696.mp3",
+        "id": 2027
+    },
+    {
+        "english": "rest",
+        "bulgarian": "почивам",
+        "recording": "mp3s/bulgarian/997046.mp3",
+        "id": 2028
+    },
+    {
+        "english": "The man rested in the hammock.",
+        "bulgarian": "Мъжът си почина в хамака.",
+        "recording": "mp3s/bulgarian/358681.mp3",
+        "id": 2029
+    },
+    {
+        "english": "explain",
+        "bulgarian": "обяснявам",
+        "recording": "mp3s/bulgarian/652153.mp3",
+        "id": 2030
+    },
+    {
+        "english": "The professor explained the diagram.",
+        "bulgarian": "Професорът обясни диаграмата.",
+        "recording": "mp3s/bulgarian/602454.mp3",
+        "id": 2031
+    },
+    {
+        "english": "talk",
+        "bulgarian": "говоря",
+        "recording": "mp3s/bulgarian/358837.mp3",
+        "id": 2032
+    },
+    {
+        "english": "talk with a customer",
+        "bulgarian": "говоря с клиент",
+        "recording": "mp3s/bulgarian/358842.mp3",
+        "id": 2033
+    },
+    {
+        "english": "come",
+        "bulgarian": "идвам",
+        "recording": "mp3s/bulgarian/358827.mp3",
+        "id": 2034
+    },
+    {
+        "english": "come early",
+        "bulgarian": "идвам рано",
+        "recording": "mp3s/bulgarian/358828.mp3",
+        "id": 2035
+    },
+    {
+        "english": "go",
+        "bulgarian": "отивам",
+        "recording": "mp3s/bulgarian/358817.mp3",
+        "id": 2036
+    },
+    {
+        "english": "The people went in the morning.",
+        "bulgarian": "Хората отидоха сутринта.",
+        "recording": "mp3s/bulgarian/358823.mp3",
+        "id": 2037
+    },
+    {
+        "english": "feel",
+        "bulgarian": "чувствам",
+        "recording": "mp3s/bulgarian/358807.mp3",
+        "id": 2038
+    },
+    {
+        "english": "feel sad",
+        "bulgarian": "чувствам се тъжен",
+        "recording": "mp3s/bulgarian/358812.mp3",
+        "id": 2039
+    },
+    {
+        "english": "ride",
+        "bulgarian": "возя се",
+        "recording": "mp3s/bulgarian/358872.mp3",
+        "id": 2040
+    },
+    {
+        "english": "The students rode the bus.",
+        "bulgarian": "Учениците се возиха на автобуса.",
+        "recording": "mp3s/bulgarian/358877.mp3",
+        "id": 2041
+    },
+    {
+        "english": "study",
+        "bulgarian": "уча",
+        "recording": "mp3s/bulgarian/358949.mp3",
+        "id": 2042
+    },
+    {
+        "english": "The high school students studied in the library.",
+        "bulgarian": "Гимназистите учиха в библиотеката.",
+        "recording": "mp3s/bulgarian/358954.mp3",
+        "id": 2043
+    },
+    {
+        "english": "read",
+        "bulgarian": "чета",
+        "recording": "mp3s/bulgarian/997107.mp3",
+        "id": 2044
+    },
+    {
+        "english": "The boy is reading a book in the park.",
+        "bulgarian": "Момчето чете книга в парка.",
+        "recording": "mp3s/bulgarian/358919.mp3",
+        "id": 2045
+    },
+    {
+        "english": "teach",
+        "bulgarian": "преподавам",
+        "recording": "mp3s/bulgarian/358897.mp3",
+        "id": 2046
+    },
+    {
+        "english": "The teacher teaches the class.",
+        "bulgarian": "Учителят преподава урока.",
+        "recording": "mp3s/bulgarian/358902.mp3",
+        "id": 2047
+    },
+    {
+        "english": "ask",
+        "bulgarian": "питам",
+        "recording": "mp3s/bulgarian/359005.mp3",
+        "id": 2048
+    },
+    {
+        "english": "If you have any questions, please ask me now.",
+        "bulgarian": "Ако имате някакви въпроси, моля задайте ги сега.",
+        "recording": "mp3s/bulgarian/1008582.mp3",
+        "id": 2049
+    },
+    {
+        "english": "answer",
+        "bulgarian": "отговарям",
+        "recording": "mp3s/bulgarian/359001.mp3",
+        "id": 2050
+    },
+    {
+        "english": "The students answered the questions.",
+        "bulgarian": "Учениците отговориха на въпросите.",
+        "recording": "mp3s/bulgarian/359004.mp3",
+        "id": 2051
+    },
+    {
+        "english": "call",
+        "bulgarian": "звъня",
+        "recording": "mp3s/bulgarian/359047.mp3",
+        "id": 2052
+    },
+    {
+        "english": "The mother called her daughter.",
+        "bulgarian": "Майката звънна на дъщеря си.",
+        "recording": "mp3s/bulgarian/359053.mp3",
+        "id": 2053
+    },
+    {
+        "english": "close",
+        "bulgarian": "затварям",
+        "recording": "mp3s/bulgarian/359115.mp3",
+        "id": 2054
+    },
+    {
+        "english": "The university student closed the door.",
+        "bulgarian": "Студентът затвори вратата.",
+        "recording": "mp3s/bulgarian/359120.mp3",
+        "id": 2055
+    },
+    {
+        "english": "open",
+        "bulgarian": "отварям",
+        "recording": "mp3s/bulgarian/359099.mp3",
+        "id": 2056
+    },
+    {
+        "english": "The boy opened the door.",
+        "bulgarian": "Момчето отвори вратата.",
+        "recording": "mp3s/bulgarian/359105.mp3",
+        "id": 2057
+    },
+    {
+        "english": "turn on",
+        "bulgarian": "включвам",
+        "recording": "mp3s/bulgarian/602451.mp3",
+        "id": 2058
+    },
+    {
+        "english": "turn on a light",
+        "bulgarian": "включвам лампа",
+        "recording": "mp3s/bulgarian/359081.mp3",
+        "id": 2059
+    },
+    {
+        "english": "receive",
+        "bulgarian": "получавам",
+        "recording": "mp3s/bulgarian/359179.mp3",
+        "id": 2060
+    },
+    {
+        "english": "The man received money.",
+        "bulgarian": "Мъжът получи пари.",
+        "recording": "mp3s/bulgarian/359184.mp3",
+        "id": 2061
+    },
+    {
+        "english": "finish",
+        "bulgarian": "завършвам",
+        "recording": "mp3s/bulgarian/359135.mp3",
+        "id": 2062
+    },
+    {
+        "english": "The skier finished the race.",
+        "bulgarian": "Скиорът завърши състезанието.",
+        "recording": "mp3s/bulgarian/359139.mp3",
+        "id": 2063
+    },
+    {
+        "english": "arrive",
+        "bulgarian": "пристигам",
+        "recording": "mp3s/bulgarian/1008593.mp3",
+        "id": 2064
+    },
+    {
+        "english": "The father arrived at the park.",
+        "bulgarian": "Бащата пристигна в парка.",
+        "recording": "mp3s/bulgarian/359232.mp3",
+        "id": 2065
+    },
+    {
+        "english": "search",
+        "bulgarian": "търся",
+        "recording": "mp3s/bulgarian/359215.mp3",
+        "id": 2066
+    },
+    {
+        "english": "search for an ant",
+        "bulgarian": "търся мравка",
+        "recording": "mp3s/bulgarian/359218.mp3",
+        "id": 2067
+    },
+    {
+        "english": "remember",
+        "bulgarian": "помня",
+        "recording": "mp3s/bulgarian/997043.mp3",
+        "id": 2068
+    },
+    {
+        "english": "remember a number",
+        "bulgarian": "запомням номер",
+        "recording": "mp3s/bulgarian/359313.mp3",
+        "id": 2069
+    },
+    {
+        "english": "run",
+        "bulgarian": "тичам",
+        "recording": "mp3s/bulgarian/359338.mp3",
+        "id": 2070
+    },
+    {
+        "english": "run in sneakers",
+        "bulgarian": "тичам с маратонки",
+        "recording": "mp3s/bulgarian/359343.mp3",
+        "id": 2071
+    },
+    {
+        "english": "listen",
+        "bulgarian": "слушам",
+        "recording": "mp3s/bulgarian/359427.mp3",
+        "id": 2072
+    },
+    {
+        "english": "The boy listened to the sound of the ocean.",
+        "bulgarian": "Момчето слуша шума на океана.",
+        "recording": "mp3s/bulgarian/602407.mp3",
+        "id": 2073
+    },
+    {
+        "english": "draw",
+        "bulgarian": "рисувам",
+        "recording": "mp3s/bulgarian/359379.mp3",
+        "id": 2074
+    },
+    {
+        "english": "The artist is drawing Chinese characters with a writing brush.",
+        "bulgarian": "Художникът рисува китайски йероглифи с четка за писане.",
+        "recording": "mp3s/bulgarian/359374.mp3",
+        "id": 2075
+    },
+    {
+        "english": "cook",
+        "bulgarian": "приготвям",
+        "recording": "mp3s/bulgarian/359523.mp3",
+        "id": 2076
+    },
+    {
+        "english": "buy",
+        "bulgarian": "купувам",
+        "recording": "mp3s/bulgarian/359611.mp3",
+        "id": 2077
+    },
+    {
+        "english": "The couple buys clothes.",
+        "bulgarian": "Двойката купува дрехи.",
+        "recording": "mp3s/bulgarian/359618.mp3",
+        "id": 2078
+    },
+    {
+        "english": "see",
+        "bulgarian": "виждам",
+        "recording": "mp3s/bulgarian/423648.mp3",
+        "id": 2079
+    },
+    {
+        "english": "I'll see a play on Sunday.",
+        "bulgarian": "Ще гледам пиеса в неделя.",
+        "recording": "mp3s/bulgarian/602206.mp3",
+        "id": 2080
+    },
+    {
+        "english": "say",
+        "bulgarian": "казвам",
+        "recording": "mp3s/bulgarian/359824.mp3",
+        "id": 2081
+    },
+    {
+        "english": "cannot say",
+        "bulgarian": "не мога да кажа",
+        "recording": "mp3s/bulgarian/359830.mp3",
+        "id": 2082
+    },
+    {
+        "english": "laugh",
+        "bulgarian": "смея се",
+        "recording": "mp3s/bulgarian/359863.mp3",
+        "id": 2083
+    },
+    {
+        "english": "The couple laughed at the picture.",
+        "bulgarian": "Двойката се смя на снимката.",
+        "recording": "mp3s/bulgarian/359870.mp3",
+        "id": 2084
+    },
+    {
+        "english": "can",
+        "bulgarian": "мога",
+        "recording": "mp3s/bulgarian/423643.mp3",
+        "id": 2085
+    },
+    {
+        "english": "can jump over",
+        "bulgarian": "мога да прескоча",
+        "recording": "mp3s/bulgarian/424709.mp3",
+        "id": 2086
+    },
+    {
+        "english": "tour",
+        "bulgarian": "обикалям",
+        "recording": "mp3s/bulgarian/423563.mp3",
+        "id": 2087
+    },
+    {
+        "english": "tour the ruins",
+        "bulgarian": "обикалям руините",
+        "recording": "mp3s/bulgarian/617779.mp3",
+        "id": 2088
+    },
+    {
+        "english": "plan",
+        "bulgarian": "планирам",
+        "recording": "mp3s/bulgarian/423312.mp3",
+        "id": 2089
+    },
+    {
+        "english": "We'll plan the holiday to Europe.",
+        "bulgarian": "Ние ще планираме почивката в Европа.",
+        "recording": "mp3s/bulgarian/605019.mp3",
+        "id": 2090
+    },
+    {
+        "english": "put",
+        "bulgarian": "слагам",
+        "recording": "mp3s/bulgarian/422720.mp3",
+        "id": 2091
+    },
+    {
+        "english": "Put the sign on the front of the building.",
+        "bulgarian": "Слагам знака на фасадата на сградата.",
+        "recording": "mp3s/bulgarian/652049.mp3",
+        "id": 2092
+    },
+    {
+        "english": "cancel",
+        "bulgarian": "отменям",
+        "recording": "mp3s/bulgarian/422522.mp3",
+        "id": 2093
+    },
+    {
+        "english": "cancel the meeting",
+        "bulgarian": "отменям срещата",
+        "recording": "mp3s/bulgarian/618158.mp3",
+        "id": 2094
+    },
+    {
+        "english": "travel",
+        "bulgarian": "пътувам",
+        "recording": "mp3s/bulgarian/617882.mp3",
+        "id": 2095
+    },
+    {
+        "english": "After I graduate, I will travel the world for one year.",
+        "bulgarian": "След като завърша ще пътувам около света за една година.",
+        "recording": "mp3s/bulgarian/1695299.mp3",
+        "id": 2096
+    },
+    {
+        "english": "die",
+        "bulgarian": "умирам",
+        "recording": "mp3s/bulgarian/617892.mp3",
+        "id": 2097
+    },
+    {
+        "english": "He died in an accident last year.",
+        "bulgarian": "Той умря в злополука миналата година.",
+        "recording": "mp3s/bulgarian/1623094.mp3",
+        "id": 2098
+    },
+    {
+        "english": "also",
+        "bulgarian": "също",
+        "recording": "mp3s/bulgarian/659858.mp3",
+        "id": 2200
+    },
+    {
+        "english": "still",
+        "bulgarian": "все още",
+        "recording": "mp3s/bulgarian/1489539.mp3",
+        "id": 2201
+    },
+    {
+        "english": "however",
+        "bulgarian": "въпреки това",
+        "recording": "mp3s/bulgarian/1489540.mp3",
+        "id": 2202
+    },
+    {
+        "english": "therefore",
+        "bulgarian": "затова",
+        "recording": "mp3s/bulgarian/1489541.mp3",
+        "id": 2203
+    },
+    {
+        "english": "on the other hand",
+        "bulgarian": "от друга страна",
+        "recording": "mp3s/bulgarian/1489542.mp3",
+        "id": 2204
+    },
+    {
+        "english": "currently",
+        "bulgarian": "понастоящем",
+        "recording": "mp3s/bulgarian/1489543.mp3",
+        "id": 2205
+    },
+    {
+        "english": "in fact",
+        "bulgarian": "всъщност",
+        "recording": "mp3s/bulgarian/1489544.mp3",
+        "id": 2206
+    },
+    {
+        "english": "finally",
+        "bulgarian": "накрая",
+        "recording": "mp3s/bulgarian/1489545.mp3",
+        "id": 2207
+    },
+    {
+        "english": "nevertheless",
+        "bulgarian": "въпреки всичко",
+        "recording": "mp3s/bulgarian/1489546.mp3",
+        "id": 2208
+    },
+    {
+        "english": "consequently",
+        "bulgarian": "следователно",
+        "recording": "mp3s/bulgarian/1489547.mp3",
+        "id": 2209
+    },
+    {
+        "english": "indeed",
+        "bulgarian": "наистина",
+        "recording": "mp3s/bulgarian/1489548.mp3",
+        "id": 2210
+    },
+    {
+        "english": "instead",
+        "bulgarian": "вместо",
+        "recording": "mp3s/bulgarian/1489549.mp3",
+        "id": 2211
+    },
+    {
+        "english": "likewise",
+        "bulgarian": "също така",
+        "recording": "mp3s/bulgarian/1489550.mp3",
+        "id": 2212
+    },
+    {
+        "english": "moreover",
+        "bulgarian": "освен това",
+        "recording": "mp3s/bulgarian/1489551.mp3",
+        "id": 2213
+    },
+    {
+        "english": "meanwhile",
+        "bulgarian": "междувременно",
+        "recording": "mp3s/bulgarian/1489552.mp3",
+        "id": 2214
+    },
+    {
+        "english": "eventually",
+        "bulgarian": "в крайна сметка",
+        "recording": "mp3s/bulgarian/1489553.mp3",
+        "id": 2215
+    },
+    {
+        "english": "besides",
+        "bulgarian": "освен това",
+        "recording": "mp3s/bulgarian/1489554.mp3",
+        "id": 2216
+    },
+    {
+        "english": "certainly",
+        "bulgarian": "със сигурност",
+        "recording": "mp3s/bulgarian/1489555.mp3",
+        "id": 2217
+    },
+    {
+        "english": "in addition",
+        "bulgarian": "в допълнение",
+        "recording": "mp3s/bulgarian/1489556.mp3",
+        "id": 2218
+    },
+    {
+        "english": "then",
+        "bulgarian": "след това",
+        "recording": "mp3s/bulgarian/1489557.mp3",
+        "id": 2219
     }
 ]
