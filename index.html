@@ -82,7 +82,7 @@ button:hover {
         </div>
 
         <div class="prompt" style="display: grid; gap: 0.7rem; height: 33vh; align-content: center; place-items: center; text-align: center;">
-            <p class="english"> lrrrn </p>
+            <p> lrrrn </p>
         </div>
 
         <div class="phrase" style="display: grid; gap: 0.7rem; height: 33vh; align-content: center; display: none; place-items: center; text-align: center;">
@@ -167,7 +167,7 @@ function say( s, lang="en" ) {
     const synth = window.speechSynthesis;
     const utterThis = new SpeechSynthesisUtterance(s);
     utterThis.voice = {
-        "en": synth.getVoices()[4],
+        "en": synth.getVoices()[0],
         "bg": synth.getVoices().filter(v => v.lang.includes("bg"))[0],
         "ar": synth.getVoices().filter(v => v.lang.includes("ar"))[0],
     }[lang];
@@ -189,7 +189,7 @@ function show(className) {
 }
 
 function setCard(phrase) {
-    document.querySelector(".prompt .english").innerText = phrase.english || phrase.description;
+    document.querySelector(".prompt p").innerText = mode === "listen" ? phrase.arabic || phrase.bulgarian : phrase.english || phrase.description;
     document.querySelector(".phrase .english").innerText = phrase.english || phrase.description;
     document.querySelector(".phrase .foreign").innerText = phrase.arabic || phrase.bulgarian;
     if( phrase.transliteration ) {
@@ -202,7 +202,6 @@ function setCard(phrase) {
     setRecording(phrase);
     show(".prompt");
     if( mode === "speak" ) pause() + say(phrase.english || phrase.description);
-    document.querySelector(".prompt .english").style.display = mode === "listen" ? "none" : "unset";
     document.querySelector("#continue p").innerText = "reveal";
 }
 
