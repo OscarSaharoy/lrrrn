@@ -82,7 +82,7 @@ button:hover {
         </div>
 
         <div class="prompt" style="display: grid; gap: 0.7rem; height: 33vh; align-content: center; place-items: center; text-align: center;">
-            <p> lrrrn </p>
+            <p> click "next" to start! </p>
         </div>
 
         <div class="phrase" style="display: grid; gap: 0.7rem; height: 33vh; align-content: center; display: none; place-items: center; text-align: center;">
@@ -235,7 +235,7 @@ function showResults() {
 
 function next() {
     const prompt = document.querySelector(".prompt");
-    if( prompt.style.display === "grid" && prompt.textContent.trim() !== "lrrrn" ) {
+    if( prompt.style.display === "grid" && prompt.textContent.trim() !== "click \"next\" to start!" ) {
         show(".phrase");
     } else {
         setCard(getRandomPhrase());
