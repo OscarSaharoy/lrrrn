@@ -124,7 +124,8 @@ button:hover {
 <script>
 
 const wordsDataAr = dataAr.filter(d => words.includes(d.english?.toLowerCase()) || d.category === "conversation-starters");
-let wordsData = [...dataPhrasesBg, ...dataBg];
+const dataBg = [...phrasesDataBg, ...wordsDataBg]
+let wordsData = dataBg;
 let mode = "listen";
 let score = 0;
 
@@ -212,8 +213,7 @@ function getRandomPhrase() {
 
 function showResults() {
     const searchTerm = document.querySelector("input").value;
-    console.log([...dataBg, ...dataAr].filter(d => !(d.english || d.description)))
-    const resultPhrases = [...dataBg, ...dataAr]
+    const resultPhrases = wordsData
         .filter( d => (d.english || d.description).toLowerCase().includes(searchTerm.toLowerCase()) || (d.arabic || d.bulgarian).includes(searchTerm) || d.transliteration?.includes(searchTerm) )
         .sort( (d1, d2) => (d1.english || d1.description).localeCompare(d2.english || d2.description) );
 

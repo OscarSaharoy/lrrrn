@@ -1,4 +1,4 @@
-const dataPhrasesBg = [
+const phrasesDataBg = [
   {
     "english": "Where are we meeting?",
     "bulgarian": "Къде ще се срещнем?",

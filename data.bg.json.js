@@ -1,4 +1,4 @@
-const dataBg = [
+const wordsDataBg = [
     {
         "id": 1,
         "recording": "mp3s/bulgarian/1.mp3",
