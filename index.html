@@ -19,6 +19,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: serif;
+    font-size: 1.6rem;
 }
 
 body {
@@ -28,29 +29,35 @@ body {
 
 button {
     appearance: none;
-    border: none;
+    border: 1px solid white;
+    border-radius: 0.4rem;
+    padding: 1rem;
     background: none;
     cursor: pointer;
-    font-size: 2rem;
     color: white;
-    display: grid;
-    place-items: center;
-    justify-content: center;
-    grid-auto-flow: column;
-    gap: 0.5rem;
 }
 button:hover {
     text-shadow: 0 0 1.5rem white;
+}
+button.selected {
+    background: #8ff3;
 }
 
 .key, input {
     color: white;
     font-family: monospace;
-    font-size: 1rem;
     padding: 0.4rem 0.7rem;
     border: 1px solid #fff4;
     border-radius: 0.8rem;
     background: none;
+}
+.key {
+    font-size: 1rem;
+}
+div.stack {
+    display: grid;
+    place-items: center;
+    gap: 0.5rem;
 }
 
 </style>
@@ -70,31 +77,39 @@ button:hover {
       <source src="" type="audio/mpeg">
     </audio>
     
-    <article style="display: grid; gap: 1rem; font-size: 2rem; width: 100vw; max-width: 44rem; padding: 3rem;">
-        <div class="lang-toggle" style="display: grid; grid-auto-flow: column; gap: 1rem; margin-top: 2rem; height: 3rem; align-items: center; justify-content: center; margin-bottom: -2rem; transform: scale(0.8)">
-            <button id="bg" style="text-decoration: underline;">🇧🇬  </button>
-            <button id="ar">🇸🇩   </button>
+    <article style="display: grid; gap: 1rem; height: 100%; width: 100vw; max-width: 44rem; padding: 3rem; grid-template-rows: min-content min-content 1fr 20%">
+        <div class="lang-toggle" style="display: grid; grid-auto-flow: column; gap: 1rem; margin-top: 2rem; align-items: center; justify-content: center; margin-bottom: -2rem; grid-template-columns: max-content 1fr max-content">
+            <p style="width: 5.9rem;"> lrrrn </p>
+            <p id="score" style="font-family: monospace; text-align: center;"> 0 </p>
+            <div style="display: grid; grid-template-columns: max-content max-content; gap: 0.75rem;">
+                <button id="bg" style="text-decoration: underline; border: none; padding: 1rem 0.5rem">🇧🇬  </button>
+                <button id="ar" style="border: none; padding: 1rem 0.5rem;">🇸🇩   </button>
+            </div>
         </div>
-        <div style="display: grid; grid-auto-flow: column; gap: 2rem; margin-top: 2rem; height: 3rem; grid-template-columns: 1fr 1fr 1fr;">
-            <button id="listen" style="text-decoration: underline;">listen</button>
-            <button id="speak">speak</button>
-            <button id="dictionary">dictionary</button>
+        <div style="display: grid; grid-auto-flow: row; gap: 1rem; margin-top: 2rem; grid-template-columns: 1fr 1fr;">
+            <button class="selected" id="listen">🎧 listen</button>
+            <button id="speak">💬 speak</button>
+            <button id="revise" style="position: relative;">
+                🤔 revise
+                <span style="position: absolute; right: 0.65rem; top: 0.5rem; font-family: monospace; font-size: 1.2rem; opacity: 0.85;"></span>
+            </button>
+            <button id="dictionary">📖 dictionary</button>
         </div>
 
-        <div class="prompt" style="display: grid; gap: 0.7rem; height: 33vh; align-content: center; place-items: center; text-align: center;">
+        <div class="prompt" style="display: grid; gap: 0.7rem; align-content: center; place-items: center; text-align: center;">
             <p> click "next" to start! </p>
         </div>
 
-        <div class="phrase" style="display: grid; gap: 0.7rem; height: 33vh; align-content: center; display: none; place-items: center; text-align: center;">
+        <div class="phrase" style="display: grid; gap: 0.7rem; align-content: center; display: none; place-items: center; text-align: center;">
             <p class="foreign"> foreign </p>
             <p class="transliteration"> transliteration </p>
             <p class="english"> english </p>
         </div>
 
-        <div class="search" style="display: none; gap: 2rem; height: 70vh; align-content: start; text-align: center; grid-template-rows: max-content 1fr;">
-            <input id="search-box" style="padding: 1rem; background: #fff1; font-family: serif; font-size: 1.5rem; border-radius: 1.5rem;" placeholder="Search" />
+        <div class="search" style="display: none; gap: 2rem; align-content: start; text-align: center; grid-template-rows: max-content 1fr;">
+            <input id="search-box" style="padding: 1rem; background: #fff1; font-family: serif; border-radius: 1.5rem; margin-top: 1rem;" placeholder="Search" />
             
-            <button id="result-template" class="result" style="display: none; gap: 0.7rem; align-content: center; place-items: center; text-align: center; grid-auto-flow: row;">
+            <button id="result-template" class="result" style="display: none; gap: 0.7rem; align-content: center; place-items: center; text-align: center; grid-auto-flow: row; padding: 0; border: none;">
                 <p class="foreign"> foreign </p>
                 <p class="transliteration"> transliteration </p>
                 <p class="english"> english </p>
@@ -104,10 +119,25 @@ button:hover {
             </div>
         </div>
 
-        <div class="buttons" style="display: grid; grid-auto-flow: column; gap: 2rem; margin-top: 2rem; height: 3rem; grid-template-columns: 1fr 1fr 1fr; align-items: center;">
-            <button id="replay"><span class="key">R</span> <p>replay</p></button>
-            <p id="score" style="font-family: monospace; font-size: 1.6rem; text-align: center;"> 0 </p>
-            <button id="continue"><span class="key">Space</span> <p style="width: 5rem; text-align: left;">next</p></button>
+        <div class="buttons" style="display: grid; gap: 1rem; align-items: center; grid-template-columns: 1fr 1fr 1fr; align-items: stretch">
+            <button id="replay">
+                <div class="stack">
+                    <p>🔁 replay</p>
+                    <span class="key">R</span>
+                </div>
+            </button>
+            <button id="save">
+                <div class="stack">
+                    <p>🤔 revise</p>
+                    <span class="key">S</span>
+                </div>
+            </button>
+            <button id="continue">
+                <div class="stack">
+                    <p>👍 next</p>
+                    <span class="key">Space</span>
+                </div>
+            </button>
         </div>
     </article>
 
@@ -128,13 +158,16 @@ const dataBg = [...phrasesDataBg, ...wordsDataBg]
 let wordsData = dataBg;
 let mode = "listen";
 let score = 0;
+let reviseWords = [];
+let reviseIndex = 0;
 
 function setMode(newMode) {
     mode = newMode;
 
-    document.querySelector("#listen").style.textDecoration = mode === "listen" ? "underline" : "none";
-    document.querySelector("#speak").style.textDecoration  = mode === "speak"  ? "underline" : "none";
-    document.querySelector("#dictionary").style.textDecoration  = mode === "dictionary"  ? "underline" : "none";
+    for(const id of ["listen", "speak", "revise", "dictionary"]) {
+        if( mode === id ) document.getElementById(id).classList.add("selected");
+        else document.getElementById(id).classList.remove("selected");
+    }
 
     if(newMode === "dictionary") show(".search") + showResults("");
     else setCard(getRandomPhrase());
@@ -164,6 +197,14 @@ function replay() {
     document.querySelector(".recording").play();
 }
 
+function save() {
+    const currentWord = document.querySelector(".phrase .foreign").innerText;
+    if( !reviseWords.includes(currentWord) )
+        reviseWords.push(currentWord);
+    document.querySelector("#revise span").innerText = reviseWords.length;
+    next(false);
+}
+
 function say( s, lang="en" ) {
     const synth = window.speechSynthesis;
     const utterThis = new SpeechSynthesisUtterance(s);
@@ -185,7 +226,7 @@ function show(className) {
         mode === "speak" ? replay() : pause() + say(document.querySelector(".english").textContent);
         score += 1;
         document.querySelector("#score").innerText = score;
-        document.querySelector("#continue p").innerText = "next";
+        document.querySelector("#continue p").innerText = "👍 next";
     }
 }
 
@@ -203,12 +244,15 @@ function setCard(phrase) {
     setRecording(phrase);
     show(".prompt");
     if( mode === "speak" ) pause() + say(phrase.english || phrase.description);
-    document.querySelector("#continue p").innerText = "reveal";
+    document.querySelector("#continue p").innerText = "🔍 reveal";
 }
 
 function getRandomPhrase() {
-    const phrasesWithRecording = wordsData.filter(p => !!p.recording);
-    return phrasesWithRecording[Math.floor(Math.random() * phrasesWithRecording.length)]
+    let phrasesWithRecording = wordsData.filter(p => !!p.recording);
+    if( mode === "revise" ) phrasesWithRecording = phrasesWithRecording.filter(p => reviseWords.includes(p.arabic || p.bulgarian));
+    if( phrasesWithRecording.length === 0 ) return { bulgarian: "no saved words to revise", english: "no saved words to revise" };
+    const index = mode === "revise" ? reviseIndex++ : Math.floor(Math.random() * phrasesWithRecording.length);
+    return phrasesWithRecording[index % phrasesWithRecording.length]
 }
 
 function showResults() {
@@ -233,23 +277,30 @@ function showResults() {
     }
 }
 
-function next() {
+function next(unsave) {
     const prompt = document.querySelector(".prompt");
     if( prompt.style.display === "grid" && prompt.textContent.trim() !== "click \"next\" to start!" ) {
         show(".phrase");
     } else {
+        if(unsave) {
+            reviseWords = reviseWords.filter(rw => rw !== document.querySelector(".foreign").innerText);
+            document.querySelector("#revise span").innerText = reviseWords.length;
+        }
         setCard(getRandomPhrase());
     }
 }
 
 document.querySelector("#listen").onclick = () => setMode("listen");
 document.querySelector("#speak").onclick = () => setMode("speak");
+document.querySelector("#revise").onclick = () => setMode("revise");
 document.querySelector("#dictionary").onclick = () => setMode("dictionary");
-document.querySelector("#continue").onclick = next;
+document.querySelector("#continue").onclick = () => next(mode === "revise");
 document.querySelector("#replay").onclick = replay;
+document.querySelector("#save").onclick = save;
 document.onkeydown = e =>
     mode !== "dictionary" ? (
-        e.key === " " ? next() + e.preventDefault() :
+        e.key === " " ? next(mode === "revise") + e.preventDefault() :
+        e.key === "s" ? save() :
         e.key === "r" ? replay() : null
     ) : null;
 
