@@ -164,6 +164,7 @@ let mode = "listen";
 let score = 0;
 let reviseWords = [];
 let reviseIndex = 0;
+let currentPhrase = null;
 
 function setMode(newMode) {
     mode = newMode;
@@ -203,8 +204,8 @@ function replay() {
 
 function save() {
     const currentWord = document.querySelector(".phrase .foreign").innerText;
-    if( !reviseWords.includes(currentWord) )
-        reviseWords.push(currentWord);
+    if( !reviseWords.map(([w, _]) => w).includes(currentWord) )
+        reviseWords.push([currentWord, mode]);
     document.querySelector("#revise span").innerText = reviseWords.length;
     next(false);
 }
@@ -227,7 +228,7 @@ function show(className) {
     document.querySelector(".buttons").style.display = className !== ".search" ? "grid" : "none";
 
     if( className === ".phrase" ) {
-        mode === "speak" ? replay() : pause() + say(document.querySelector(".english").textContent);
+        (currentPhrase.mode || mode) === "speak" ? replay() : pause() + say(document.querySelector(".english").textContent);
         score += 1;
         document.querySelector("#score").innerText = score;
         document.querySelector("#continue p").innerText = "👍 next";
@@ -235,7 +236,8 @@ function show(className) {
 }
 
 function setCard(phrase) {
-    document.querySelector(".prompt p").innerText = mode === "listen" ? phrase.arabic || phrase.bulgarian : phrase.english || phrase.description;
+    const cardMode = phrase.mode || mode;
+    document.querySelector(".prompt p").innerText = cardMode === "speak" ? phrase.english || phrase.description : phrase.arabic || phrase.bulgarian;
     document.querySelector(".phrase .english").innerText = phrase.english || phrase.description;
     document.querySelector(".phrase .foreign").innerText = phrase.arabic || phrase.bulgarian;
     if( phrase.transliteration ) {
@@ -247,13 +249,16 @@ function setCard(phrase) {
 
     setRecording(phrase);
     show(".prompt");
-    if( mode === "speak" ) pause() + say(phrase.english || phrase.description);
+    if( cardMode === "speak" ) pause() + say(phrase.english || phrase.description);
     document.querySelector("#continue p").innerText = "🔍 reveal";
+    currentPhrase = phrase;
 }
 
 function getRandomPhrase() {
     let phrasesWithRecording = wordsData.filter(p => !!p.recording);
-    if( mode === "revise" ) phrasesWithRecording = phrasesWithRecording.filter(p => reviseWords.includes(p.arabic || p.bulgarian));
+    if( mode === "revise" ) phrasesWithRecording = reviseWords.map(
+        ([word, mode]) => ({...phrasesWithRecording.find(p => p.arabic == word || p.bulgarian == word), mode})
+    );
     if( phrasesWithRecording.length === 0 ) return { bulgarian: "no saved words to revise", english: "no saved words to revise" };
     const index = mode === "revise" ? reviseIndex++ : Math.floor(Math.random() * phrasesWithRecording.length);
     return phrasesWithRecording[index % phrasesWithRecording.length]
@@ -287,7 +292,7 @@ function next(unsave) {
         show(".phrase");
     } else {
         if(unsave) {
-            reviseWords = reviseWords.filter(rw => rw !== document.querySelector(".foreign").innerText);
+            reviseWords = reviseWords.filter(([rw, _]) => rw !== document.querySelector(".foreign").innerText);
             document.querySelector("#revise span").innerText = reviseWords.length;
         }
         setCard(getRandomPhrase());
